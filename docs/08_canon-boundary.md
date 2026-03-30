@@ -1,21 +1,21 @@
-# Kanon-Grenze
+# Canon Boundary
 
-Kanon, Symbolik und Identitätsobjekte sind im Projekt bewusst formal begrenzt.
+Canon, symbolism, and identity objects are deliberately kept under formal limits in the project.
 
-## Das bedeutet
+## This means
 
-- Kanon ist **nicht** Runtime-State
-- Symbolik ist **nicht** ACL
-- V’eth ist **nicht** technischer Wahrheitskern
-- Stil darf keine versteckte Autorität erhalten
-- symbolische Referenzen ersetzen keine Governance-, Consent- oder Risk-Entscheidungen
+- canon is **not** runtime state
+- symbolism is **not** ACL
+- V’eth is **not** the technical truth core
+- style must not receive hidden authority
+- symbolic references do not replace governance, consent, or risk decisions
 
-## Warum das wichtig ist
+## Why this matters
 
-Die Ausdrucks- und Symbolschicht darf Orientierung und Stil tragen, aber keine versteckten technischen Rechte oder Wahrheiten behaupten.
+The expression and symbolic layer may carry orientation and style, but it must not claim hidden technical rights or truths.
 
-Gerade dadurch bleibt das System nach außen lesbar, ohne intern unsauber zu werden.
+That is exactly what keeps the system readable externally without becoming internally unclean.
 
-## Öffentliche Grenze
+## Public boundary
 
-Dieses Showcase zeigt deshalb nur die formale Grundidee des Kanonraums, nicht seine gesamte interne Tiefe.
+This showcase therefore shows only the formal basic idea of the canon space, not its full internal depth.

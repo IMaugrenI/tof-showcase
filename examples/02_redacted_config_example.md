@@ -1,4 +1,4 @@
-# Redigiertes Konfigurationsbeispiel
+# Redacted Configuration Example
 
 ```yaml
 service:
@@ -9,14 +9,15 @@ service:
   secrets: ENV_ONLY
   runtime_profile: reduced_public_view
 ```
-## Hinweis
 
-Dieses Beispiel ist rein illustrativ.
+## Note
 
-Es zeigt bewusst nur eine harmlose, redigierte Form und enthält:
+This example is purely illustrative.
 
-- keine echten Hosts
-- keine echten Tokens
-- keine echten IDs
-- keine produktiven Pfade
-- keine operative Sicherheitslogik
+It deliberately shows only a harmless, redacted form and contains:
+
+- no real hosts
+- no real tokens
+- no real IDs
+- no production paths
+- no operational security logic

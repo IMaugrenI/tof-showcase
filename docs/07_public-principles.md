@@ -1,18 +1,18 @@
-# Öffentliche technische Leitplanken
+# Public Technical Guardrails
 
-Dieses Projekt folgt in seiner technischen Richtung unter anderem diesen öffentlich tragbaren Prinzipien:
+Among other things, this project follows these publicly presentable technical principles:
 
 - Docker-first
 - Postgres-only
-- klare Service-Grenzen
-- kein monolithischer Bauchladen
-- fail-closed statt stiller Durchwinker
-- audit-first und spurenbewusstes Denken
-- append-only-orientierte Nachvollziehbarkeit
-- plattformneutrale Innenlogik
-- LLM spät in der Kette, nicht als Wahrheitskern
-- Privacy / Consent als echte Querschnittsachse
+- clear service boundaries
+- no monolithic grab-bag
+- fail-closed instead of silent pass-through
+- audit-first and trace-aware thinking
+- append-only-oriented traceability
+- platform-neutral internal logic
+- LLM late in the chain, not as the truth core
+- privacy / consent as a real cross-cutting axis
 
-## Hinweis
+## Note
 
-Diese Liste ist bewusst auf Außenwirkung und Grundprinzipien reduziert. Sie ist keine vollständige operative Spezifikation.
+This list is deliberately reduced to public-facing and foundational principles. It is not a complete operational specification.

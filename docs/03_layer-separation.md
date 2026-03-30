@@ -1,29 +1,29 @@
-# Ebenentrennung
+# Layer Separation
 
-Ein zentrales Bauprinzip von ToF / V’eth ist die saubere Trennung der Räume.
+A central construction principle of ToF / V’eth is the clean separation of spaces.
 
-## Die wichtigsten Räume
+## The most important spaces
 
-- **ToF** = technischer Kern- und Ordnungsraum
-- **V’eth** = Identitäts-, Spiegel-, Ausdrucks- und Symbolschicht
-- **Runtime** = aktive technische Wahrheit
-- **Werkbank** = Bergungs- und Zerlegungsraum für Altmaterial
-- **Archiv** = Langzeitspur und Herkunftsraum
-- **Kanon** = strukturierter Referenzraum
+- **ToF** = technical core and order space
+- **V’eth** = identity, mirror, expression, and symbolic layer
+- **Runtime** = active technical truth
+- **Werkbank** = salvage and decomposition space for older material
+- **Archiv** = long-term trace and provenance space
+- **Kanon** = structured reference space
 
-## Warum diese Trennung wichtig ist
+## Why this separation matters
 
-Diese Räume dürfen sich gegenseitig beeinflussen, aber nicht unmarkiert vermischen.
+These spaces may influence one another, but they must not merge without being marked.
 
-Zum Beispiel:
+For example:
 
-- Werkbank ist nicht Runtime
-- Archiv ist nicht aktueller Zustand
-- Kanon ist nicht State-Wahrheit
-- V’eth ist nicht Governance-Ersatz
+- Werkbank is not runtime
+- archive is not current state
+- canon is not state truth
+- V’eth is not a governance substitute
 
-## Öffentliche Lesart
+## Public reading
 
-Die Außenfläche zeigt nur die Trennlogik und Grundidee.
+The public surface shows only the separation logic and the basic idea.
 
-Interne operative Details, Gewichtungen und Sonderpfade bleiben bewusst privat.
+Internal operational details, weightings, and special paths deliberately remain private.

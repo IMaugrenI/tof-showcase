@@ -1,23 +1,23 @@
-# Beispielablauf
+# Example Flow
 
-Ein vereinfachter öffentlicher Ablauf könnte so gelesen werden:
+A simplified public flow can be read like this:
 
-1. Ein Eingangssignal trifft ein.
-2. Das Signal wird formal angenommen.
-3. Vorbedingungen und Zuständigkeit werden geprüft.
-4. Schutz- und Entscheidungslogik greifen.
-5. Eine Verarbeitungseinheit übernimmt den Fall.
-6. Zustand und Ergebnis werden getrennt behandelt.
-7. Relevante Spuren können referenziert oder abgelegt werden.
-8. Eine Ausgabe wird vorbereitet.
-9. Das Ergebnis wird nach außen ausgegeben.
+1. An input signal arrives.
+2. The signal is formally accepted.
+3. Preconditions and responsibility are checked.
+4. Protection and decision logic take effect.
+5. A processing unit takes over the case.
+6. State and result are treated separately.
+7. Relevant traces may be referenced or stored.
+8. An output is prepared.
+9. The result is emitted outward.
 
-## Hinweis
+## Note
 
-Dieser Ablauf ist absichtlich abstrahiert und nicht identisch mit einer produktiven Implementierung.
+This flow is intentionally abstract and not identical to a production implementation.
 
-Er zeigt nur die Grundidee:
+It shows only the basic idea:
 
-- Verarbeitung erfolgt nicht ungeordnet
-- Schutz sitzt nicht erst am Ende
-- Zustand, Archiv und Ausgabe sind nicht dasselbe
+- processing does not happen in an unordered way
+- protection does not sit only at the end
+- state, archive, and output are not the same thing

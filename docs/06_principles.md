@@ -1,41 +1,41 @@
-# Prinzipien
+# Principles
 
-Dieses Dokument beschreibt die Grundprinzipien der öffentlichen Showcase-Darstellung.
+This document describes the core principles of the public showcase presentation.
 
-## Zentrale Projektprinzipien
+## Central project principles
 
-- klare Trennung von Zuständigkeiten
-- modulare statt monolithische Struktur
-- nachvollziehbare Abläufe
-- Schutzlogik nicht als Deko, sondern als echte Schicht
-- Sprachmodell-Ausgabe nicht als Wahrheitskern
-- Struktur vor Vermischung
-- Systemgrenzen bleiben sichtbar
+- clear separation of responsibilities
+- modular instead of monolithic structure
+- traceable workflows
+- protection logic not as decoration, but as a real layer
+- language-model output not as the truth core
+- structure before mixing
+- system boundaries remain visible
 
-## Öffentliche Darstellungsprinzipien
+## Public presentation principles
 
-- nur redigierte und vereinfachte Ausschnitte
-- keine produktiven Zugangsdaten
-- keine realen IDs oder Betriebsgeheimnisse
-- keine sicherheitskritischen Details im Vollausbau
-- keine privaten Betriebs- oder Archivdaten
-- keine operative Tiefenmechanik
+- only redacted and simplified excerpts
+- no production access data
+- no real IDs or operating secrets
+- no security-critical details in full depth
+- no private operating or archive data
+- no operational deep mechanics
 
-## Leitlinie des Showcase
+## Guiding line of the showcase
 
-Diese Außenfläche soll genug zeigen, um Orientierung zu geben, aber nicht so viel, dass sie den internen Systembau entblößt.
+This public surface should show enough to provide orientation, but not so much that it exposes the internal system build.
 
-Öffentlich sichtbar werden daher vor allem:
+What becomes publicly visible above all is:
 
-- Denkweise
-- Ebenentrennung
-- Kettenidee
-- technische Leitplanken
-- reduzierte Beispielstruktur
+- way of thinking
+- layer separation
+- chain idea
+- technical guardrails
+- reduced example structure
 
-Nicht sichtbar werden:
+What does not become visible is:
 
-- konkrete Schutzmechaniken
-- reale Infrastrukturpfade
-- interne Operator- oder Sonderzugänge
-- vollständige Lauf- und Betriebslogik
+- concrete protection mechanisms
+- real infrastructure paths
+- internal operator or special access paths
+- full runtime and operating logic

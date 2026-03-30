@@ -1,44 +1,44 @@
-# Grenzen des öffentlichen Showcase
+# Boundaries of the Public Showcase
 
-## Öffentlich
+## Public
 
-Dieses Repository darf öffentlich zeigen:
+This repository may publicly show:
 
-- High-Level-Beschreibung
-- Grundidee des Projekts
-- Ebenentrennung
-- Prinzipien
-- redigierte Fragmente
-- harmlose Beispiele
-- vereinfachte Dokumentation
-- bewusst reduzierte Kettenlesarten
+- a high-level description
+- the core project idea
+- layer separation
+- principles
+- redacted fragments
+- harmless examples
+- simplified documentation
+- deliberately reduced chain readings
 
-## Privat
+## Private
 
-Dieses Repository zeigt bewusst nicht:
+This repository deliberately does not show:
 
-- vollständigen Code
-- produktive Infrastruktur
-- reale Compose- oder Betriebsdetails
-- interne Sicherheitsdetails
-- operative Sonderpfade
-- reale Integrationen
-- IDs, Tokens oder Secrets
-- private Logs, Archive oder Rohdaten
-- interne Test- oder Operator-Mechaniken
+- full code
+- production infrastructure
+- real compose or operating details
+- internal security details
+- operational special paths
+- real integrations
+- IDs, tokens, or secrets
+- private logs, archives, or raw data
+- internal test or operator mechanics
 
-## Warum diese Grenze wichtig ist
+## Why this boundary matters
 
-Das Projekt soll nach außen lesbar sein, ohne sein Innenleben vollständig preiszugeben.
+The project should be externally readable without fully exposing its inner workings.
 
-Die Außenfläche dient daher nicht der Volloffenlegung, sondern der kontrollierten Sichtbarkeit von:
+The public surface therefore does not serve full disclosure, but controlled visibility of:
 
-- Richtung
-- Haltung
-- Strukturdenken
-- Architekturdisziplin
+- direction
+- attitude
+- structural thinking
+- architectural discipline
 
-## Grundsatz
+## Principle
 
-Genug zeigen, um das Projekt verständlich zu machen.  
-Nicht so viel zeigen, dass interne Schutz-, Betriebs- oder Strukturgeheimnisse offenliegen.
+Show enough to make the project understandable.  
+Do not show so much that internal protection, operating, or structural secrets become exposed.

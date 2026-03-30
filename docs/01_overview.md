@@ -1,45 +1,45 @@
-# Überblick
+# Overview
 
-ToF / V’eth ist ein eigenständig entwickeltes Systemprojekt mit Fokus auf strukturierte Verarbeitung, klare Systemgrenzen, nachvollziehbare Abläufe und modulare Weiterentwicklung.
+ToF / V’eth is an independently developed system project focused on structured processing, clear system boundaries, traceable workflows, and modular further development.
 
-## Kurzlesart
+## Short reading
 
-Das Projekt wird in zwei verbundenen, aber getrennten Ebenen gelesen:
+The project is read through two connected but separate layers:
 
-- **ToF** ist der technische Ordnungsraum
-- **V’eth** ist die Identitäts-, Spiegel- und Ausdrucksschicht
+- **ToF** is the technical order space
+- **V’eth** is the identity, mirror, and expression layer
 
-Diese Trennung ist kein Stilmittel, sondern ein echtes Strukturprinzip.
+This separation is not a stylistic device, but a real structural principle.
 
-## Leitidee
+## Core idea
 
-Im Mittelpunkt stehen:
+At the center are:
 
-- Ordnung statt ungefilterter Vermischung
-- klare Trennung von Zuständigkeiten
-- sichtbare Kettenlogik
-- Schutz- und Governance-Denke
-- plattformneutrale Innenstruktur
-- bewusste Grenze zwischen öffentlicher Darstellung und internem Produktivstand
+- order instead of uncontrolled mixing
+- clear separation of responsibilities
+- visible chain logic
+- protection and governance thinking
+- platform-neutral internal structure
+- a deliberate boundary between public presentation and internal production state
 
-## Worum es in diesem Showcase geht
+## What this showcase is about
 
-Dieses öffentliche Repo zeigt keine vollständige Produktivumgebung.
+This public repository does not show a full production environment.
 
-Es zeigt in reduzierter Form:
+In reduced form, it shows:
 
-- wie das Projekt gedacht ist
-- welche Prinzipien den Bau tragen
-- wie Struktur, Trennung und Verantwortlichkeit behandelt werden
-- wie eine öffentliche Außenfläche aussehen kann, ohne sensible Interna preiszugeben
+- how the project is thought
+- which principles support the build
+- how structure, separation, and responsibility are handled
+- how a public-facing surface can look without exposing sensitive internals
 
-## Worum es hier nicht geht
+## What this is not about
 
-Dieses Showcase ist nicht dafür da,
+This showcase is not meant to:
 
-- das gesamte System offenzulegen
-- den vollständigen Code preiszugeben
-- operative Sicherheitslogik sichtbar zu machen
-- interne Betriebsdetails öffentlich zu dokumentieren
+- disclose the entire system
+- publish the full code
+- expose operational security logic
+- document internal operating details publicly
 
-Es ist eine kontrollierte Außenfläche mit genug Substanz, um Richtung und Charakter des Projekts verständlich zu machen.
+It is a controlled public surface with enough substance to make the direction and character of the project understandable.

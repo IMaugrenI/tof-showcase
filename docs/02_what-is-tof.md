@@ -1,34 +1,34 @@
-# Was ToF ist
+# What ToF Is
 
-ToF ist kein Discord-Bot mit Extras und kein einfacher LLM-Aufbau.
+ToF is not a Discord bot with extras and not a simple LLM setup.
 
-ToF ist als technischer Ordnungsraum gedacht, in dem Verarbeitung, Zuständigkeit, Schutz, Zustand und Archivierung bewusst getrennt werden.
+ToF is intended as a technical order space in which processing, responsibility, protection, state, and archiving are deliberately separated.
 
-## ToF in Kurzform
+## ToF in short
 
-ToF steht für einen modularen Systemraum mit Fokus auf:
+ToF stands for a modular system space with a focus on:
 
-- klare Kettenlogik
-- getrennte Verantwortlichkeiten
-- Governance- und Schutzdenken
-- State-, Retention- und Archivlogik
-- plattformneutrale Innenstruktur mit Adaptern am Rand
+- clear chain logic
+- separated responsibilities
+- governance and protection thinking
+- state, retention, and archive logic
+- a platform-neutral internal structure with adapters at the edge
 
-## Was ToF nicht ist
+## What ToF is not
 
-ToF ist öffentlich ausdrücklich nicht zu lesen als:
+Publicly, ToF should explicitly not be read as:
 
-- gewöhnlicher Chatbot
-- LLM-Wrapper
-- monolithischer Bot-Kern
-- Plattformlogik im Systemzentrum
-- blind antwortendes Antwortsystem
+- an ordinary chatbot
+- an LLM wrapper
+- a monolithic bot core
+- platform logic at the center of the system
+- a blindly responding answer machine
 
-## Verhältnis zu V’eth
+## Relationship to V’eth
 
-ToF und V’eth gehören zusammen, sind aber nicht dasselbe.
+ToF and V’eth belong together, but they are not the same thing.
 
-- **ToF = Struktur**
-- **V’eth = Ausdruck / Identität / Spiegelung**
+- **ToF = structure**
+- **V’eth = expression / identity / mirroring**
 
-Der technische Kern bleibt vom Ausdrucksraum getrennt.
+The technical core remains separate from the expression layer.

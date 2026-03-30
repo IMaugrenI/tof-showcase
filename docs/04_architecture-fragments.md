@@ -1,51 +1,51 @@
-# Architekturfragmente
+# Architecture Fragments
 
-Dieses Dokument zeigt bewusst nur eine vereinfachte Sicht.
+This document deliberately shows only a simplified view.
 
-## Öffentliche Lesart
+## Public reading
 
-Das System wird öffentlich nicht als einzelner Bot gelesen, sondern als geschichteter Aufbau mit getrennten Verantwortungsräumen.
+The system is not publicly read as a single bot, but as a layered structure with separated spaces of responsibility.
 
-Vereinfacht sichtbar sind:
+What is visibly simplified here includes:
 
-- Eingang und Annahme
-- Prüfung und Vorfilterung
-- Governance- und Schutzlogik
-- Analyse und Verarbeitung
-- Zustand und Retention
-- Archivierung
-- Ausgabevorbereitung und Ausgabe
+- input and intake
+- checking and pre-filtering
+- governance and protection logic
+- analysis and processing
+- state and retention
+- archiving
+- output preparation and output
 
-## Randprinzip
+## Edge principle
 
-Außenplattformen sprechen ihre eigene Sprache.  
-Der Kern spricht die eigene Systemsprache.
+External platforms speak their own language.  
+The core speaks its own system language.
 
-Daraus folgt:
+This means:
 
-- Plattformlogik bleibt am Rand
-- Adapter übernehmen Übersetzung
-- der innere Systemraum bleibt getrennt und stabil
+- platform logic remains at the edge
+- adapters handle translation
+- the inner system space stays separate and stable
 
-## Warum nur Fragmente?
+## Why only fragments?
 
-Die echte Systemtiefe bleibt privat.
+The real system depth remains private.
 
-Öffentlich gezeigt werden nur:
+What is shown publicly is only:
 
-- Denkweise
-- Grobstruktur
-- Ebenentrennung
-- Prinzipien
+- the way of thinking
+- the coarse structure
+- layer separation
+- principles
 
-## Was dieses Dokument bewusst nicht tut
+## What this document deliberately does not do
 
-Dieses Dokument ist nicht:
+This document is not:
 
-- vollständige Architekturfreigabe
-- Betriebsdokumentation
-- Sicherheitsdokumentation
-- Runtime-Spezifikation
-- Infrastruktur-Blueprint
+- a full architecture release
+- operating documentation
+- security documentation
+- a runtime specification
+- an infrastructure blueprint
 
-Es ist eine reduzierte Außenlesart.
+It is a reduced outside reading.

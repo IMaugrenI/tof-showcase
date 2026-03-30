@@ -1,30 +1,30 @@
-# Öffentliche Kettenlesart
+# Public Chain Reading
 
-Die führende Systemkette wird hier nur in reduzierter Form gezeigt.
+The leading system chain is shown here only in reduced form.
 
-## Vereinfachte Lesart
+## Simplified reading
 
-1. Eingang
-2. Edge / Annahme
-3. Prüfung
-4. Governance / Entscheidung
-5. Safety / Schutz
-6. Analyse
-7. Verarbeitung
+1. Input
+2. Edge / intake
+3. Check
+4. Governance / decision
+5. Safety / protection
+6. Analysis
+7. Processing
 8. State
 9. Retention
-10. Archiv
-11. Vector / Kohärenzraum
-12. Ausgabevorbereitung
-13. Ausgabe
+10. Archive
+11. Vector / coherence space
+12. Output preparation
+13. Output
 
-## Warum nur reduziert?
+## Why only reduced?
 
-Die vollständige operative Tiefe ist nicht Teil dieses Showcase.
+The full operational depth is not part of this showcase.
 
-Gezeigt wird nur die Grundrichtung:
+Only the basic direction is shown:
 
-- Verarbeitung läuft nicht ungeordnet
-- Zuständigkeiten sind geschichtet
-- LLM-Ausgabe steht spät in der Gesamtkette
-- Ausgabe ist nicht identisch mit Wahrheitskern
+- processing does not run in an unordered way
+- responsibilities are layered
+- LLM output appears late in the overall chain
+- output is not identical with the truth core

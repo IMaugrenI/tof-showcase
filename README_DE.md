@@ -1,6 +1,6 @@
 # ToF Showcase
 
-> Englisch ist der Primärtext dieses Repositories. Ein deutscher Klon liegt in `README_DE.md`.
+> Englisch ist der Primärtext dieses Repositories. Die deutschen `_DE`-Dateien sind direkte Text-Klone zum leichteren Lesen.
 
 ToF / V’eth ist **kein Bot** und **kein einfacher LLM-Wrapper**.
 
@@ -35,23 +35,23 @@ Dieses Repository dient dazu,
 ## Struktur
 
 ### Kernübersicht
-- [`docs/01_overview.md`](docs/01_overview.md) – kompakter Überblick
-- [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) – was ToF ist und was nicht
-- [`docs/03_layer-separation.md`](docs/03_layer-separation.md) – Trennung der Räume und Ebenen
+- [`docs/01_overview_DE.md`](docs/01_overview_DE.md) – kompakter Überblick
+- [`docs/02_what-is-tof_DE.md`](docs/02_what-is-tof_DE.md) – was ToF ist und was nicht
+- [`docs/03_layer-separation_DE.md`](docs/03_layer-separation_DE.md) – Trennung der Räume und Ebenen
 
 ### Architektur und Prinzipien
-- [`docs/04_architecture-fragments.md`](docs/04_architecture-fragments.md) – vereinfachte Architekturfragmente
-- [`docs/05_public-chain.md`](docs/05_public-chain.md) – reduzierte öffentliche Kettenlesart
-- [`docs/06_principles.md`](docs/06_principles.md) – Grundprinzipien des Showcase
-- [`docs/07_public-principles.md`](docs/07_public-principles.md) – technische Leitplanken in öffentlicher Form
+- [`docs/04_architecture-fragments_DE.md`](docs/04_architecture-fragments_DE.md) – vereinfachte Architekturfragmente
+- [`docs/05_public-chain_DE.md`](docs/05_public-chain_DE.md) – reduzierte öffentliche Kettenlesart
+- [`docs/06_principles_DE.md`](docs/06_principles_DE.md) – Grundprinzipien des Showcase
+- [`docs/07_public-principles_DE.md`](docs/07_public-principles_DE.md) – technische Leitplanken in öffentlicher Form
 
 ### Grenzen und Referenzräume
-- [`docs/08_canon-boundary.md`](docs/08_canon-boundary.md) – Kanon ist nicht Runtime
-- [`docs/09_boundaries.md`](docs/09_boundaries.md) – was öffentlich bleibt und was privat bleibt
+- [`docs/08_canon-boundary_DE.md`](docs/08_canon-boundary_DE.md) – Kanon ist nicht Runtime
+- [`docs/09_boundaries_DE.md`](docs/09_boundaries_DE.md) – was öffentlich bleibt und was privat bleibt
 
 ### Beispiele
-- [`examples/01_example_flow.md`](examples/01_example_flow.md) – vereinfachter Beispielablauf
-- [`examples/02_redacted_config_example.md`](examples/02_redacted_config_example.md) – redigiertes Konfigurationsbeispiel
+- [`examples/01_example_flow_DE.md`](examples/01_example_flow_DE.md) – vereinfachter Beispielablauf
+- [`examples/02_redacted_config_example_DE.md`](examples/02_redacted_config_example_DE.md) – redigiertes Konfigurationsbeispiel
 
 ## Öffentliche Kernidee
 
