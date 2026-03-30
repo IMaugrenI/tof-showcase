@@ -1,121 +1,123 @@
 # ToF Showcase
 
-ToF / V’eth ist **kein Bot** und **kein einfacher LLM-Wrapper**.
+> English is the primary text in this repository. A German clone is available in `README_DE.md`.
 
-**ToF** ist der technische Ordnungsraum des Systems:  
-Architektur, Kette, Governance, Safety, Runtime, State und Archiv.
+ToF / V’eth is **not a bot** and **not a simple LLM wrapper**.
 
-**V’eth** ist die getrennte Identitäts-, Spiegel-, Ausdrucks- und Symbolschicht.  
-Sie begleitet die Ausdrucksseite des Systems, ersetzt den technischen Kern aber nicht.
+**ToF** is the technical order space of the system:  
+architecture, chain logic, governance, safety, runtime, state, and archive.
 
-Dieses Repository ist eine **bewusst reduzierte öffentliche Außenfläche**.  
-Es zeigt ausgewählte Prinzipien, Ebenentrennungen und vereinfachte Architekturfragmente, ohne den vollständigen Produktivstand preiszugeben.
+**V’eth** is the separate identity, mirror, expression, and symbolic layer.  
+It accompanies the expressive side of the system, but does not replace the technical core.
 
-## Ziel dieses Repos
+This repository is a **deliberately reduced public surface**.  
+It shows selected principles, layer separations, and simplified architectural fragments without exposing the full production state.
 
-Dieses Repository dient dazu,
+## Purpose of this repository
 
-- die Grundidee von ToF / V’eth sichtbar zu machen
-- Architekturdenken und Systemtrennung nachvollziehbar zu zeigen
-- ausgewählte, redigierte Fragmente öffentlich darzustellen
-- Prinzipien und Arbeitsweise zu dokumentieren
-- einen ehrlichen, aber kontrollierten Einblick in das Projekt zu geben
+This repository exists to:
 
-## Was hier sichtbar wird
+- make the core idea of ToF / V’eth visible
+- show architectural thinking and system separation in a traceable way
+- present selected redacted fragments publicly
+- document principles and working style
+- give an honest but controlled insight into the project
 
-- was ToF ist
-- wie ToF und V’eth getrennt gelesen werden
-- wie Ebenen und Räume sauber getrennt werden
-- wie die öffentliche Kettenlesart grob aussieht
-- welche technischen Leitplanken den Bau tragen
-- welche Grenze zwischen öffentlicher Darstellung und internem System gilt
+## What becomes visible here
 
-## Struktur
+- what ToF is
+- how ToF and V’eth are read as separate layers
+- how layers and spaces are kept cleanly separated
+- how the public chain reading roughly works
+- which technical guardrails support the build
+- where the boundary lies between public presentation and internal system
 
-### Kernübersicht
-- [`docs/01_overview.md`](docs/01_overview.md) – kompakter Überblick
-- [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) – was ToF ist und was nicht
-- [`docs/03_layer-separation.md`](docs/03_layer-separation.md) – Trennung der Räume und Ebenen
+## Structure
 
-### Architektur und Prinzipien
-- [`docs/04_architecture-fragments.md`](docs/04_architecture-fragments.md) – vereinfachte Architekturfragmente
-- [`docs/05_public-chain.md`](docs/05_public-chain.md) – reduzierte öffentliche Kettenlesart
-- [`docs/06_principles.md`](docs/06_principles.md) – Grundprinzipien des Showcase
-- [`docs/07_public-principles.md`](docs/07_public-principles.md) – technische Leitplanken in öffentlicher Form
+### Core overview
+- [`docs/01_overview.md`](docs/01_overview.md) – compact overview
+- [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) – what ToF is and what it is not
+- [`docs/03_layer-separation.md`](docs/03_layer-separation.md) – separation of spaces and layers
 
-### Grenzen und Referenzräume
-- [`docs/08_canon-boundary.md`](docs/08_canon-boundary.md) – Kanon ist nicht Runtime
-- [`docs/09_boundaries.md`](docs/09_boundaries.md) – was öffentlich bleibt und was privat bleibt
+### Architecture and principles
+- [`docs/04_architecture-fragments.md`](docs/04_architecture-fragments.md) – simplified architecture fragments
+- [`docs/05_public-chain.md`](docs/05_public-chain.md) – reduced public chain reading
+- [`docs/06_principles.md`](docs/06_principles.md) – showcase ground principles
+- [`docs/07_public-principles.md`](docs/07_public-principles.md) – technical guardrails in public form
 
-### Beispiele
-- [`examples/01_example_flow.md`](examples/01_example_flow.md) – vereinfachter Beispielablauf
-- [`examples/02_redacted_config_example.md`](examples/02_redacted_config_example.md) – redigiertes Konfigurationsbeispiel
+### Boundaries and reference spaces
+- [`docs/08_canon-boundary.md`](docs/08_canon-boundary.md) – canon is not runtime
+- [`docs/09_boundaries.md`](docs/09_boundaries.md) – what stays public and what stays private
 
-## Öffentliche Kernidee
+### Examples
+- [`examples/01_example_flow.md`](examples/01_example_flow.md) – simplified example flow
+- [`examples/02_redacted_config_example.md`](examples/02_redacted_config_example.md) – redacted configuration example
 
-Das Projekt folgt einer klaren Lesart:
+## Public core idea
 
-- Außen spricht Plattform
-- innen spricht die eigene Systemsprache
-- Plattformlogik endet am Rand
-- der Kern bleibt plattformneutral
-- Sprachmodell-Ausgabe ist nicht der Wahrheitskern
-- Schutz, Trennung und Nachvollziehbarkeit gehen vor bloßer Antworterzeugung
+The project follows a clear reading:
 
-## Wichtige Trennlinie
+- platforms speak at the outside
+- inside, the system speaks its own language
+- platform logic ends at the edge
+- the core remains platform-neutral
+- language-model output is not the truth core
+- protection, separation, and traceability come before mere response generation
 
-ToF / V’eth wird öffentlich nicht als gewöhnlicher Chat-Aufbau dargestellt.
+## Important separation line
 
-Wichtig ist:
+ToF / V’eth is not presented publicly as an ordinary chat setup.
 
-- **ToF = Struktur**
-- **V’eth = Ausdruck / Identität**
-- **Kanon = Referenzraum**
-- **Runtime = aktive technische Wahrheit**
+What matters is:
 
-Diese Ebenen dürfen sich gegenseitig beeinflussen, aber nicht unmarkiert vermischen.
+- **ToF = structure**
+- **V’eth = expression / identity**
+- **Canon = reference space**
+- **Runtime = active technical truth**
 
-## Was hier bewusst nicht gezeigt wird
+These layers may influence one another, but they must not merge without being marked.
 
-Dieses Repository ist **kein** vollständiger Produktivstand.
+## What is deliberately not shown here
 
-Nicht öffentlich gezeigt werden unter anderem:
+This repository is **not** a full production state.
 
-- vollständiger Kerncode
-- produktive Compose- und Infrastrukturdetails
-- reale Secrets, Tokens oder Schlüssel
-- konkrete IDs, Scopes oder lokale Betriebsdetails
-- operative Sicherheitsmechaniken im Detail
-- private Daten, Logs oder Archivmaterial
-- interne Sonderpfade und sensible Steuerlogik
+Among the things not shown publicly are:
 
-## Projektkontext
+- full core code
+- production compose and infrastructure details
+- real secrets, tokens, or keys
+- concrete IDs, scopes, or local operating details
+- operational security mechanics in detail
+- private data, logs, or archive material
+- internal special paths and sensitive control logic
 
-ToF / V’eth ist ein eigenständig entwickeltes Systemprojekt.
+## Project context
 
-Im Mittelpunkt stehen:
+ToF / V’eth is an independently developed system project.
 
-- strukturierte technische Ordnung
-- modulare Denkweise
-- klare Trennung von Rollen und Ebenen
-- Schutz- und Governance-Denke
-- nachvollziehbare Weiterentwicklung
-- kontrollierte statt blinde Offenlegung
+Its center of gravity is:
 
-Dieses öffentliche Repository zeigt daher bewusst nur Bruchstücke — nicht aus Unklarheit, sondern aus Systemdisziplin.
+- structured technical order
+- modular thinking
+- clear separation of roles and layers
+- protection and governance thinking
+- traceable further development
+- controlled rather than blind disclosure
 
-## Hinweis
+This public repository therefore shows only selected fragments — not out of vagueness, but out of system discipline.
 
-Dieses Repository ist als **Showcase statt Volloffenlegung** gedacht.
+## Note
 
-Es soll verständlich machen,
+This repository is meant as a **showcase instead of full disclosure**.
 
-- wie das Projekt denkt
-- wie es seine Ebenen trennt
-- welche Prinzipien den Bau tragen
-- warum ToF / V’eth nicht als gewöhnlicher Bot oder einfacher Chat-Aufbau gelesen werden sollte
+Its purpose is to make understandable:
 
-## Kontakt
+- how the project thinks
+- how it separates its layers
+- which principles support the build
+- why ToF / V’eth should not be read as an ordinary bot or simple chat setup
 
-- GitHub-Profil: [IMaugrenI](https://github.com/IMaugrenI)
+## Contact
+
+- GitHub profile: [IMaugrenI](https://github.com/IMaugrenI)
 - LinkedIn: [Jakob Kessler](https://www.linkedin.com/in/jakob-kessler-595b393b7)
