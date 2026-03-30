@@ -33,23 +33,23 @@ Dieses Repository dient dazu,
 ## Struktur
 
 ### Kernübersicht
-- [`docs/overview.md`](docs/overview.md) – kompakter Überblick
-- [`docs/what-is-tof.md`](docs/what-is-tof.md) – was ToF ist und was nicht
-- [`docs/layer-separation.md`](docs/layer-separation.md) – Trennung der Räume und Ebenen
+- [`docs/01_overview.md`](docs/01_overview.md) – kompakter Überblick
+- [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) – was ToF ist und was nicht
+- [`docs/03_layer-separation.md`](docs/03_layer-separation.md) – Trennung der Räume und Ebenen
 
 ### Architektur und Prinzipien
-- [`docs/architecture-fragments.md`](docs/architecture-fragments.md) – vereinfachte Architekturfragmente
-- [`docs/public-chain.md`](docs/public-chain.md) – reduzierte öffentliche Kettenlesart
-- [`docs/principles.md`](docs/principles.md) – Grundprinzipien des Showcase
-- [`docs/public-principles.md`](docs/public-principles.md) – technische Leitplanken in öffentlicher Form
+- [`docs/04_architecture-fragments.md`](docs/04_architecture-fragments.md) – vereinfachte Architekturfragmente
+- [`docs/05_public-chain.md`](docs/05_public-chain.md) – reduzierte öffentliche Kettenlesart
+- [`docs/06_principles.md`](docs/06_principles.md) – Grundprinzipien des Showcase
+- [`docs/07_public-principles.md`](docs/07_public-principles.md) – technische Leitplanken in öffentlicher Form
 
 ### Grenzen und Referenzräume
-- [`docs/canon-boundary.md`](docs/canon-boundary.md) – Kanon ist nicht Runtime
-- [`docs/boundaries.md`](docs/boundaries.md) – was öffentlich bleibt und was privat bleibt
+- [`docs/08_canon-boundary.md`](docs/08_canon-boundary.md) – Kanon ist nicht Runtime
+- [`docs/09_boundaries.md`](docs/09_boundaries.md) – was öffentlich bleibt und was privat bleibt
 
 ### Beispiele
-- [`examples/example_flow.md`](examples/example_flow.md) – vereinfachter Beispielablauf
-- [`examples/redacted_config_example.md`](examples/redacted_config_example.md) – redigiertes Konfigurationsbeispiel
+- [`examples/01_example_flow.md`](examples/01_example_flow.md) – vereinfachter Beispielablauf
+- [`examples/02_redacted_config_example.md`](examples/02_redacted_config_example.md) – redigiertes Konfigurationsbeispiel
 
 ## Öffentliche Kernidee
 
