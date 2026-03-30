@@ -48,17 +48,4 @@ Dieses Dokument ist nicht:
 - Runtime-Spezifikation
 - Infrastruktur-Blueprint
 
-Es ist eine reduzierte Außenlesart.# Architekturfragmente
-
-Dieses Dokument zeigt bewusst nur eine vereinfachte Sicht.
-
-## Beispielhafte Lesart
-- Eingang / Annahme
-- Prüfung / Vorfilterung
-- Entscheidungs- und Schutzlogik
-- Verarbeitung
-- Zustandsführung
-- Ausgabe
-
-## Warum nur Fragmente?
-Die echte Systemtiefe bleibt privat. Öffentlich gezeigt werden nur Denkweise, Grobstruktur und Prinzipien.
+Es ist eine reduzierte Außenlesart.
