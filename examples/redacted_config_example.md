@@ -8,3 +8,4 @@ service:
   storage: external
   secrets: ENV_ONLY
   runtime_profile: reduced_public_view
+```
