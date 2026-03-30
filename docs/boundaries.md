@@ -41,18 +41,4 @@ Die Außenfläche dient daher nicht der Volloffenlegung, sondern der kontrollier
 ## Grundsatz
 
 Genug zeigen, um das Projekt verständlich zu machen.  
-Nicht so viel zeigen, dass interne Schutz-, Betriebs- oder Strukturgeheimnisse offenliegen.# Grenzen des öffentlichen Showcase
-
-## Öffentlich
-- High-Level-Beschreibung
-- Prinzipien
-- redigierte Fragmente
-- harmlose Beispiele
-- vereinfachte Dokumentation
-
-## Privat
-- vollständiger Code
-- produktive Infrastruktur
-- interne Sicherheitsdetails
-- operative Sonderpfade
-- reale Integrationen, IDs und Secrets
+Nicht so viel zeigen, dass interne Schutz-, Betriebs- oder Strukturgeheimnisse offenliegen.
