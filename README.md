@@ -1,6 +1,6 @@
 # ToF Showcase
 
-ToF / V’eth ist **kein Bot** und **kein LLM-Wrapper**.
+ToF / V’eth ist **kein Bot** und **kein einfacher LLM-Wrapper**.
 
 **ToF** ist der technische Ordnungsraum des Systems:  
 Architektur, Kette, Governance, Safety, Runtime, State und Archiv.
@@ -21,36 +21,35 @@ Dieses Repository dient dazu,
 - Prinzipien und Arbeitsweise zu dokumentieren
 - einen ehrlichen, aber kontrollierten Einblick in das Projekt zu geben
 
-## Was ToF ist
+## Was hier sichtbar wird
 
-ToF steht für einen modularen technischen Systemraum mit Fokus auf:
+- was ToF ist
+- wie ToF und V’eth getrennt gelesen werden
+- wie Ebenen und Räume sauber getrennt werden
+- wie die öffentliche Kettenlesart grob aussieht
+- welche technischen Leitplanken den Bau tragen
+- welche Grenze zwischen öffentlicher Darstellung und internem System gilt
 
-- klare Kettenlogik
-- getrennte Zuständigkeiten
-- nachvollziehbare Verarbeitung
-- Governance- und Schutzdenken
-- State-, Retention- und Archivlogik
-- plattformneutrale Innenstruktur mit Adaptern am Rand
+## Struktur
 
-ToF ist nicht als einzelner Bot gedacht, sondern als mehrschichtige, geordnete Systemform.
+### Kernübersicht
+- [`docs/overview.md`](docs/overview.md) – kompakter Überblick
+- [`docs/what-is-tof.md`](docs/what-is-tof.md) – was ToF ist und was nicht
+- [`docs/layer-separation.md`](docs/layer-separation.md) – Trennung der Räume und Ebenen
 
-## Was V’eth ist
+### Architektur und Prinzipien
+- [`docs/architecture-fragments.md`](docs/architecture-fragments.md) – vereinfachte Architekturfragmente
+- [`docs/public-chain.md`](docs/public-chain.md) – reduzierte öffentliche Kettenlesart
+- [`docs/principles.md`](docs/principles.md) – Grundprinzipien des Showcase
+- [`docs/public-principles.md`](docs/public-principles.md) – technische Leitplanken in öffentlicher Form
 
-V’eth ist die Identitäts-, Spiegel-, Ausdrucks- und Symbolschicht des Systems.
+### Grenzen und Referenzräume
+- [`docs/canon-boundary.md`](docs/canon-boundary.md) – Kanon ist nicht Runtime
+- [`docs/boundaries.md`](docs/boundaries.md) – was öffentlich bleibt und was privat bleibt
 
-V’eth trägt Ausdruck, Stil, Spiegelung und symbolische Referenzräume, ist aber **nicht**:
-
-- Runtime-Kern
-- ACL-Quelle
-- Governance-Bypass
-- Consent-Engine
-- State-Wahrheit
-
-Kurz:
-
-- **ToF = Struktur**
-- **V’eth = Ausdruck / Identität**
-- **beides bleibt getrennt**
+### Beispiele
+- [`examples/example_flow.md`](examples/example_flow.md) – vereinfachter Beispielablauf
+- [`examples/redacted_config_example.md`](examples/redacted_config_example.md) – redigiertes Konfigurationsbeispiel
 
 ## Öffentliche Kernidee
 
@@ -63,79 +62,18 @@ Das Projekt folgt einer klaren Lesart:
 - Sprachmodell-Ausgabe ist nicht der Wahrheitskern
 - Schutz, Trennung und Nachvollziehbarkeit gehen vor bloßer Antworterzeugung
 
-## Vereinfachte öffentliche Kettenlesart
+## Wichtige Trennlinie
 
-Die führende Systemkette wird öffentlich nur in reduzierter Form gezeigt:
+ToF / V’eth wird öffentlich nicht als gewöhnlicher Chat-Aufbau dargestellt.
 
-1. Eingang  
-2. Edge / Annahme  
-3. Prüfung  
-4. Governance / Entscheidung  
-5. Safety / Schutz  
-6. Analyse  
-7. Verarbeitung  
-8. State  
-9. Retention  
-10. Archiv  
-11. Vector / Kohärenzraum  
-12. Ausgabevorbereitung  
-13. Ausgabe
+Wichtig ist:
 
-Diese Darstellung ist bewusst vereinfacht und nicht als vollständige operative Offenlegung zu lesen.
-
-## Ebenentrennung
-
-Ein zentraler Teil des Projekts ist die saubere Trennung der Räume:
-
-- **Runtime** = aktive technische Wahrheit
-- **Werkbank** = Bergungs- und Zerlegungsraum für Altmaterial
-- **Archiv** = Langzeitspur und Herkunftsraum
-- **Kanon** = strukturierter Referenzraum
-- **V’eth** = Ausdrucks- und Identitätsschicht
-- **ToF** = technischer Kern- und Ordnungsraum
+- **ToF = Struktur**
+- **V’eth = Ausdruck / Identität**
+- **Kanon = Referenzraum**
+- **Runtime = aktive technische Wahrheit**
 
 Diese Ebenen dürfen sich gegenseitig beeinflussen, aber nicht unmarkiert vermischen.
-
-## Kanon-Grenze
-
-Kanon, Symbolik und Identitätsobjekte sind im Projekt bewusst formal begrenzt.
-
-Das bedeutet:
-
-- Kanon ist **nicht** Runtime-State
-- Symbolik ist **nicht** ACL
-- V’eth ist **nicht** technischer Wahrheitskern
-- Stil darf keine versteckte Autorität erhalten
-- symbolische Referenzen ersetzen keine Governance-, Consent- oder Risk-Entscheidungen
-
-Öffentlich sichtbar gemacht wird daher nur die Referenzidee, nicht die operative Tiefenmechanik.
-
-## Öffentliche Bauprinzipien
-
-Dieses Projekt folgt in seiner technischen Richtung unter anderem diesen Prinzipien:
-
-- Docker-first
-- Postgres-only
-- klare Service-Grenzen
-- kein monolithischer Bauchladen
-- fail-closed statt stiller Durchwinker
-- audit-first und spurenbewusstes Denken
-- append-only-orientierte Nachvollziehbarkeit
-- plattformneutrale Innenlogik
-- LLM spät in der Kette, nicht als Wahrheitskern
-- Privacy / Consent als echte Querschnittsachse
-
-## Was hier gezeigt wird
-
-In diesem Repository werden bewusst nur ausgewählte und redigierte Inhalte gezeigt, zum Beispiel:
-
-- High-Level-Beschreibungen
-- Bauprinzipien
-- Ebenentrennungen
-- vereinfachte Kettenlesarten
-- harmlose Beispielabläufe
-- abstrahierte Architekturfragmente
-- redigierte Konfigurationsideen
 
 ## Was hier bewusst nicht gezeigt wird
 
@@ -166,7 +104,7 @@ Im Mittelpunkt stehen:
 
 Dieses öffentliche Repository zeigt daher bewusst nur Bruchstücke — nicht aus Unklarheit, sondern aus Systemdisziplin.
 
-## Hinweis zur Außenfläche
+## Hinweis
 
 Dieses Repository ist als **Showcase statt Volloffenlegung** gedacht.
 
@@ -176,12 +114,6 @@ Es soll verständlich machen,
 - wie es seine Ebenen trennt
 - welche Prinzipien den Bau tragen
 - warum ToF / V’eth nicht als gewöhnlicher Bot oder einfacher Chat-Aufbau gelesen werden sollte
-
-## Status
-
-Der öffentliche Stand ist absichtlich reduziert.
-
-Er dient nicht dazu, einen vollständigen internen Ausbau offenzulegen, sondern dazu, Architekturhaltung, Systemcharakter und technische Richtung sichtbar zu machen.
 
 ## Kontakt
 
