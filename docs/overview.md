@@ -1,44 +1,45 @@
-# Grenzen des öffentlichen Showcase
+# Überblick
 
-## Öffentlich
+ToF / V’eth ist ein eigenständig entwickeltes Systemprojekt mit Fokus auf strukturierte Verarbeitung, klare Systemgrenzen, nachvollziehbare Abläufe und modulare Weiterentwicklung.
 
-Dieses Repository darf öffentlich zeigen:
+## Kurzlesart
 
-- High-Level-Beschreibung
-- Grundidee des Projekts
-- Ebenentrennung
-- Prinzipien
-- redigierte Fragmente
-- harmlose Beispiele
-- vereinfachte Dokumentation
-- bewusst reduzierte Kettenlesarten
+Das Projekt wird in zwei verbundenen, aber getrennten Ebenen gelesen:
 
-## Privat
+- **ToF** ist der technische Ordnungsraum
+- **V’eth** ist die Identitäts-, Spiegel- und Ausdrucksschicht
 
-Dieses Repository zeigt bewusst nicht:
+Diese Trennung ist kein Stilmittel, sondern ein echtes Strukturprinzip.
 
-- vollständigen Code
-- produktive Infrastruktur
-- reale Compose- oder Betriebsdetails
-- interne Sicherheitsdetails
-- operative Sonderpfade
-- reale Integrationen
-- IDs, Tokens oder Secrets
-- private Logs, Archive oder Rohdaten
-- interne Test- oder Operator-Mechaniken
+## Leitidee
 
-## Warum diese Grenze wichtig ist
+Im Mittelpunkt stehen:
 
-Das Projekt soll nach außen lesbar sein, ohne sein Innenleben vollständig preiszugeben.
+- Ordnung statt ungefilterter Vermischung
+- klare Trennung von Zuständigkeiten
+- sichtbare Kettenlogik
+- Schutz- und Governance-Denke
+- plattformneutrale Innenstruktur
+- bewusste Grenze zwischen öffentlicher Darstellung und internem Produktivstand
 
-Die Außenfläche dient daher nicht der Volloffenlegung, sondern der kontrollierten Sichtbarkeit von:
+## Worum es in diesem Showcase geht
 
-- Richtung
-- Haltung
-- Strukturdenken
-- Architekturdisziplin
+Dieses öffentliche Repo zeigt keine vollständige Produktivumgebung.
 
-## Grundsatz
+Es zeigt in reduzierter Form:
 
-Genug zeigen, um das Projekt verständlich zu machen.  
-Nicht so viel zeigen, dass interne Schutz-, Betriebs- oder Strukturgeheimnisse offenliegen.
+- wie das Projekt gedacht ist
+- welche Prinzipien den Bau tragen
+- wie Struktur, Trennung und Verantwortlichkeit behandelt werden
+- wie eine öffentliche Außenfläche aussehen kann, ohne sensible Interna preiszugeben
+
+## Worum es hier nicht geht
+
+Dieses Showcase ist nicht dafür da,
+
+- das gesamte System offenzulegen
+- den vollständigen Code preiszugeben
+- operative Sicherheitslogik sichtbar zu machen
+- interne Betriebsdetails öffentlich zu dokumentieren
+
+Es ist eine kontrollierte Außenfläche mit genug Substanz, um Richtung und Charakter des Projekts verständlich zu machen.
