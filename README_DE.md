@@ -5,7 +5,7 @@
 Öffentlicher Architekturrahmen für **ToF / V’eth**.
 
 Dieses Repository soll die Projektlinie verständlich machen, **ohne sich als vollständige Runtime auszugeben**.
-Es zeigt Systemlesart, Trennlogik, öffentliche Prinzipien und ausgewählte redigierte Fragmente.
+Es zeigt Systemlesart, Trennlogik, öffentliche Prinzipien, ausgewählte redigierte Fragmente und die öffentliche Repo-Familie rund um die Projektlinie.
 
 ## Kurzüberblick
 
@@ -33,6 +33,7 @@ Es zeigt Systemlesart, Trennlogik, öffentliche Prinzipien und ausgewählte redi
 ## Einstieg
 
 - [`docs/01_overview.md`](docs/01_overview.md) — kompakter Überblick
+- [`docs/06_project-line_DE.md`](docs/06_project-line_DE.md) — wie die öffentliche Repo-Familie zur größeren privaten Projektlinie steht
 - [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) — was ToF ist und was nicht
 - [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — Trennung von Räumen und Schichten
 - [`docs/04_architecture-fragments.md`](docs/04_architecture-fragments.md) — vereinfachte Architekturfragmente

@@ -5,7 +5,7 @@
 Public architectural frame for **ToF / V’eth**.
 
 This repository is meant to explain the project line clearly **without pretending to be the full runtime**.
-It shows system reading, separation logic, public principles, and selected redacted fragments.
+It shows system reading, separation logic, public principles, selected redacted fragments, and the public repo family around the project line.
 
 ## At a glance
 
@@ -33,6 +33,7 @@ It shows system reading, separation logic, public principles, and selected redac
 ## Start here
 
 - [`docs/01_overview.md`](docs/01_overview.md) — compact overview
+- [`docs/06_project-line.md`](docs/06_project-line.md) — how the public repo family relates to the broader private project line
 - [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) — what ToF is and what it is not
 - [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — separation of spaces and layers
 - [`docs/04_architecture-fragments.md`](docs/04_architecture-fragments.md) — simplified architecture fragments
