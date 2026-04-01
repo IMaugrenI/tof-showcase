@@ -32,12 +32,12 @@ Es zeigt Systemlesart, Trennlogik, öffentliche Prinzipien, ausgewählte redigie
 
 ## Einstieg
 
-- [`docs/01_overview.md`](docs/01_overview.md) — kompakter Überblick
+- [`docs/01_overview_DE.md`](docs/01_overview_DE.md) — kompakter Überblick
 - [`docs/06_project-line_DE.md`](docs/06_project-line_DE.md) — wie die öffentliche Repo-Familie zur größeren privaten Projektlinie steht
-- [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) — was ToF ist und was nicht
-- [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — Trennung von Räumen und Schichten
-- [`docs/04_architecture-fragments.md`](docs/04_architecture-fragments.md) — vereinfachte Architekturfragmente
-- [`docs/05_public-chain.md`](docs/05_public-chain.md) — reduzierte öffentliche Kettenlesart
+- [`docs/02_what-is-tof_DE.md`](docs/02_what-is-tof_DE.md) — was ToF ist und was nicht
+- [`docs/03_layer-separation_DE.md`](docs/03_layer-separation_DE.md) — Trennung von Räumen und Schichten
+- [`docs/04_architecture-fragments_DE.md`](docs/04_architecture-fragments_DE.md) — vereinfachte Architekturfragmente
+- [`docs/05_public-chain_DE.md`](docs/05_public-chain_DE.md) — reduzierte öffentliche Kettenlesart
 
 ## Wie dieses Repo in die öffentliche Repo-Landschaft passt
 
