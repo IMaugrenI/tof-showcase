@@ -1,121 +1,80 @@
 # ToF Showcase
 
-> Englisch ist der Primärtext dieses Repositories. Die deutschen `_DE`-Dateien sind direkte Text-Klone zum leichteren Lesen.
+> Deutsch ist die Spiegelversion dieses Repositories. Der englische Primärtext liegt in `README.md`.
 
-ToF / V’eth ist **kein Bot** und **kein einfacher LLM-Wrapper**.
+Öffentlicher Architekturrahmen für **ToF / V’eth**.
 
-**ToF** ist der technische Ordnungsraum des Systems:  
-Architektur, Kette, Governance, Safety, Runtime, State und Archiv.
+Dieses Repository soll die Projektlinie verständlich machen, **ohne sich als vollständige Runtime auszugeben**.
+Es zeigt Systemlesart, Trennlogik, öffentliche Prinzipien und ausgewählte redigierte Fragmente.
 
-**V’eth** ist die getrennte Identitäts-, Spiegel-, Ausdrucks- und Symbolschicht.  
-Sie begleitet die Ausdrucksseite des Systems, ersetzt den technischen Kern aber nicht.
+## Kurzüberblick
 
-Dieses Repository ist eine **bewusst reduzierte öffentliche Außenfläche**.  
-Es zeigt ausgewählte Prinzipien, Ebenentrennungen und vereinfachte Architekturfragmente, ohne den vollständigen Produktivstand preiszugeben.
+- **ToF** = technische Struktur, Kettenlogik, Governance, Safety, Runtime-, State- und Archivdenken
+- **V’eth** = getrennte Identitäts-, Spiegel-, Ausdrucks- und Symbolschicht
+- **Dieses Repo ist nicht das Produktionssystem**
+- **Dieses Repo ist kein einfacher Bot-Wrapper und kein gewöhnliches Chat-Setup**
+- **Dieses Repo ist ein kontrollierter öffentlicher Rahmen**
 
-## Ziel dieses Repos
+## Wofür dieses Repository da ist
 
-Dieses Repository dient dazu,
+- die Kernlesart von ToF / V’eth erklären
+- zeigen, wie Schichten und Räume getrennt werden
+- öffentliche Prinzipien und technische Leitplanken dokumentieren
+- einen nachvollziehbaren öffentlichen Einstieg in die größere Projektlinie geben
 
-- die Grundidee von ToF / V’eth sichtbar zu machen
-- Architekturdenken und Systemtrennung nachvollziehbar zu zeigen
-- ausgewählte, redigierte Fragmente öffentlich darzustellen
-- Prinzipien und Arbeitsweise zu dokumentieren
-- einen ehrlichen, aber kontrollierten Einblick in das Projekt zu geben
+## Was dieses Repository nicht ist
 
-## Was hier sichtbar wird
+- nicht der private Produktionsstand
+- nicht der vollständige Runtime-Code
+- nicht das vollständige Compose- oder Infrastruktur-Setup
+- kein Geheimdump interner Inhalte
+- keine Behauptung, dass das Öffentliche hier schon das ganze System sei
 
-- was ToF ist
-- wie ToF und V’eth getrennt gelesen werden
-- wie Ebenen und Räume sauber getrennt werden
-- wie die öffentliche Kettenlesart grob aussieht
-- welche technischen Leitplanken den Bau tragen
-- welche Grenze zwischen öffentlicher Darstellung und internem System gilt
+## Einstieg
 
-## Struktur
+- [`docs/01_overview.md`](docs/01_overview.md) — kompakter Überblick
+- [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) — was ToF ist und was nicht
+- [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — Trennung von Räumen und Schichten
+- [`docs/04_architecture-fragments.md`](docs/04_architecture-fragments.md) — vereinfachte Architekturfragmente
+- [`docs/05_public-chain.md`](docs/05_public-chain.md) — reduzierte öffentliche Kettenlesart
 
-### Kernübersicht
-- [`docs/01_overview_DE.md`](docs/01_overview_DE.md) – kompakter Überblick
-- [`docs/02_what-is-tof_DE.md`](docs/02_what-is-tof_DE.md) – was ToF ist und was nicht
-- [`docs/03_layer-separation_DE.md`](docs/03_layer-separation_DE.md) – Trennung der Räume und Ebenen
+## Wie dieses Repo in die öffentliche Repo-Landschaft passt
 
-### Architektur und Prinzipien
-- [`docs/04_architecture-fragments_DE.md`](docs/04_architecture-fragments_DE.md) – vereinfachte Architekturfragmente
-- [`docs/05_public-chain_DE.md`](docs/05_public-chain_DE.md) – reduzierte öffentliche Kettenlesart
-- [`docs/06_principles_DE.md`](docs/06_principles_DE.md) – Grundprinzipien des Showcase
-- [`docs/07_public-principles_DE.md`](docs/07_public-principles_DE.md) – technische Leitplanken in öffentlicher Form
+- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) = lauffähiger lokaler Builder-Stack
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = on-prem lokales Wissenssystem
+- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) = reduzierter öffentlicher Rahmen für V7-Grenzen
+- dieses Showcase-Repo = öffentlicher Architektur- und Trennrahmen
 
-### Grenzen und Referenzräume
-- [`docs/08_canon-boundary_DE.md`](docs/08_canon-boundary_DE.md) – Kanon ist nicht Runtime
-- [`docs/09_boundaries_DE.md`](docs/09_boundaries_DE.md) – was öffentlich bleibt und was privat bleibt
+## Öffentliche Kernlesart
 
-### Beispiele
-- [`examples/01_example_flow_DE.md`](examples/01_example_flow_DE.md) – vereinfachter Beispielablauf
-- [`examples/02_redacted_config_example_DE.md`](examples/02_redacted_config_example_DE.md) – redigiertes Konfigurationsbeispiel
+Die öffentliche Kernlesart ist bewusst einfach gehalten:
 
-## Öffentliche Kernidee
-
-Das Projekt folgt einer klaren Lesart:
-
-- Außen spricht Plattform
-- innen spricht die eigene Systemsprache
+- außen sprechen Plattformen
+- innen spricht das System seine eigene Sprache
 - Plattformlogik endet am Rand
 - der Kern bleibt plattformneutral
 - Sprachmodell-Ausgabe ist nicht der Wahrheitskern
-- Schutz, Trennung und Nachvollziehbarkeit gehen vor bloßer Antworterzeugung
+- Schutz, Trennung und Nachvollziehbarkeit stehen vor bloßer Antworterzeugung
 
 ## Wichtige Trennlinie
 
-ToF / V’eth wird öffentlich nicht als gewöhnlicher Chat-Aufbau dargestellt.
-
-Wichtig ist:
+Öffentlich wichtig ist:
 
 - **ToF = Struktur**
 - **V’eth = Ausdruck / Identität**
 - **Kanon = Referenzraum**
 - **Runtime = aktive technische Wahrheit**
 
-Diese Ebenen dürfen sich gegenseitig beeinflussen, aber nicht unmarkiert vermischen.
+Diese Ebenen dürfen sich beeinflussen, aber nicht unmarkiert vermischen.
 
 ## Was hier bewusst nicht gezeigt wird
 
-Dieses Repository ist **kein** vollständiger Produktivstand.
-
-Nicht öffentlich gezeigt werden unter anderem:
-
 - vollständiger Kerncode
-- produktive Compose- und Infrastrukturdetails
-- reale Secrets, Tokens oder Schlüssel
+- Produktions-Compose und Infrastrukturdetails
+- echte Secrets, Tokens oder Keys
 - konkrete IDs, Scopes oder lokale Betriebsdetails
 - operative Sicherheitsmechaniken im Detail
 - private Daten, Logs oder Archivmaterial
-- interne Sonderpfade und sensible Steuerlogik
-
-## Projektkontext
-
-ToF / V’eth ist ein eigenständig entwickeltes Systemprojekt.
-
-Im Mittelpunkt stehen:
-
-- strukturierte technische Ordnung
-- modulare Denkweise
-- klare Trennung von Rollen und Ebenen
-- Schutz- und Governance-Denke
-- nachvollziehbare Weiterentwicklung
-- kontrollierte statt blinde Offenlegung
-
-Dieses öffentliche Repository zeigt daher bewusst nur Bruchstücke — nicht aus Unklarheit, sondern aus Systemdisziplin.
-
-## Hinweis
-
-Dieses Repository ist als **Showcase statt Volloffenlegung** gedacht.
-
-Es soll verständlich machen,
-
-- wie das Projekt denkt
-- wie es seine Ebenen trennt
-- welche Prinzipien den Bau tragen
-- warum ToF / V’eth nicht als gewöhnlicher Bot oder einfacher Chat-Aufbau gelesen werden sollte
 
 ## Kontakt
 
