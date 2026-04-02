@@ -1,0 +1,33 @@
+ToF Public Reference License
+Copyright (c) 2026 Jakob Kessler
+All rights reserved.
+
+This repository is published as a controlled public reference space.
+It is meant to explain boundaries, architectural reading, and selected redacted material.
+It is not published as an open-source software repository.
+
+No permission is granted to copy, modify, redistribute, sublicense, republish,
+commercialize, create derivative works from, or use substantial portions of this
+repository except where such use is explicitly allowed by applicable law.
+
+Allowed without separate written permission:
+- viewing this repository on GitHub or comparable interfaces
+- quoting short excerpts with clear attribution for commentary, review, research,
+  or other uses permitted by law
+- linking to this repository
+
+Not granted without separate written permission:
+- redistribution of substantial parts of the repository
+- public mirrors of the repository contents
+- packaged reuse in products, templates, datasets, or training corpora
+- derivative public documentation based on substantial repository content
+- use of project names, marks, or identifiers as if trademark rights had been granted
+
+No trademark, patent, operator, security, or deployment rights are granted by this file.
+Names such as ToF and V’eth remain project identifiers and are not released for unrestricted reuse.
+
+The repository may link to other repositories. Each repository controls its own terms.
+A link from this repository does not extend the terms of this repository to another repo,
+and a link from another repo does not alter the terms of this repository.
+
+If you need permissions beyond the above, request them from the repository owner in writing.
