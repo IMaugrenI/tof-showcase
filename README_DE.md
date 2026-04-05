@@ -1,83 +1,52 @@
 # ToF Showcase
 
-> Deutsch ist die Spiegelversion dieses Repositories. Der englische Primärtext liegt in `README.md`.
+> Die englische Hauptfassung liegt in `README.md`.
 
-Öffentlicher Architekturrahmen für **ToF / V’eth**.
+Oeffentlicher Architektur_Einstieg in die breitere ToF / Veth Projektlinie.
 
-Dieses Repository soll die Projektlinie verständlich machen, **ohne sich als vollständige Runtime auszugeben**.
-Es zeigt Systemlesart, Trennlogik, öffentliche Prinzipien, ausgewählte redigierte Fragmente und die öffentliche Repo-Familie rund um die Projektlinie.
+Ich nutze dieses Repo, um die Struktur oeffentlich zu erklaeren, ohne private Runtime_Details offenzulegen.
+Es ist der beste Ort, um zu verstehen, wie die sichtbare Repo_Familie zusammenhaengt.
 
-## Kurzüberblick
+## start_here
 
-- **ToF** = technische Struktur, Kettenlogik, Governance, Safety, Runtime-, State- und Archivdenken
-- **V’eth** = getrennte Identitäts-, Spiegel-, Ausdrucks- und Symbolschicht
-- **Dieses Repo ist nicht das Produktionssystem**
-- **Dieses Repo ist kein einfacher Bot-Wrapper und kein gewöhnliches Chat-Setup**
-- **Dieses Repo ist ein kontrollierter öffentlicher Rahmen**
+- [`docs/01_overview.md`](docs/01_overview.md) — kompakter Ueberblick
+- [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) — was ToF ist und was es nicht ist
+- [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — Trennung von Raeumen und Ebenen
+- [`docs/05_public-chain.md`](docs/05_public-chain.md) — reduzierte oeffentliche Kettenlesart
+- [`docs/06_project-line.md`](docs/06_project-line.md) — wie die oeffentliche Repo_Familie zusammenpasst
 
-## Wofür dieses Repository da ist
+## was_dieses_repo_zeigt
 
-- die Kernlesart von ToF / V’eth erklären
-- zeigen, wie Schichten und Räume getrennt werden
-- öffentliche Prinzipien und technische Leitplanken dokumentieren
-- einen nachvollziehbaren öffentlichen Einstieg in die größere Projektlinie geben
+1. ToF als technische Struktur, Kettenlogik, Governance, Safety, Runtime, State und Archiv_Denken
+2. Veth als getrennte Identitaets_, Spiegel_ und Ausdrucksebene
+3. warum oeffentliche Erklaerung von privater Runtime_Wahrheit getrennt bleiben muss
+4. wie Grenzen und Leseregeln den oeffentlichen Rahmen ehrlich halten
 
-## Was dieses Repository nicht ist
+## warum_dieses_repo_existiert
 
-- nicht der private Produktionsstand
-- nicht der vollständige Runtime-Code
-- nicht das vollständige Compose- oder Infrastruktur-Setup
-- kein Geheimdump interner Inhalte
-- keine Behauptung, dass das Öffentliche hier schon das ganze System sei
+1. um einen nachvollziehbaren oeffentlichen Einstieg in die breitere Projektlinie zu geben
+2. um zu verhindern, dass das Projekt nur als Bot_Oberflaeche gelesen wird
+3. um Architektur_Denken, Trennlogik und Dokumentationsdisziplin sichtbar zu machen
+4. um oeffentliche und private Ebenen klar getrennt zu halten
 
-## Einstieg
+## was_dieses_repo_nicht_ist
 
-- [`docs/01_overview_DE.md`](docs/01_overview_DE.md) — kompakter Überblick
-- [`docs/06_project-line_DE.md`](docs/06_project-line_DE.md) — wie die öffentliche Repo-Familie zur größeren privaten Projektlinie steht
-- [`docs/02_what-is-tof_DE.md`](docs/02_what-is-tof_DE.md) — was ToF ist und was nicht
-- [`docs/03_layer-separation_DE.md`](docs/03_layer-separation_DE.md) — Trennung von Räumen und Schichten
-- [`docs/04_architecture-fragments_DE.md`](docs/04_architecture-fragments_DE.md) — vereinfachte Architekturfragmente
-- [`docs/05_public-chain_DE.md`](docs/05_public-chain_DE.md) — reduzierte öffentliche Kettenlesart
+1. nicht der private Produktionsstand
+2. nicht der vollstaendige Runtime_Code
+3. nicht das vollstaendige Compose_ oder Infrastruktur_Setup
+4. kein versteckter interner Dump
 
-## Wie dieses Repo in die öffentliche Repo-Landschaft passt
+## fuer_arbeitgeber
 
-- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) = lauffähiger lokaler Builder-Stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = on-prem lokales Wissenssystem
-- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) = reduzierter öffentlicher Rahmen für V7-Grenzen
-- dieses Showcase-Repo = öffentlicher Architektur- und Trennrahmen
+Dieses Repo ist nuetzlich, wenn du sehen willst, wie ich ueber folgende Dinge nachdenke:
 
-## Öffentliche Kernlesart
+1. Systemgrenzen
+2. geschichtete Architektur
+3. public_safe Dokumentation
+4. die Trennung zwischen Erklaerung und Implementierungswahrheit
 
-Die öffentliche Kernlesart ist bewusst einfach gehalten:
+## verwandte_oeffentliche_repos
 
-- außen sprechen Plattformen
-- innen spricht das System seine eigene Sprache
-- Plattformlogik endet am Rand
-- der Kern bleibt plattformneutral
-- Sprachmodell-Ausgabe ist nicht der Wahrheitskern
-- Schutz, Trennung und Nachvollziehbarkeit stehen vor bloßer Antworterzeugung
-
-## Wichtige Trennlinie
-
-Öffentlich wichtig ist:
-
-- **ToF = Struktur**
-- **V’eth = Ausdruck / Identität**
-- **Kanon = Referenzraum**
-- **Runtime = aktive technische Wahrheit**
-
-Diese Ebenen dürfen sich beeinflussen, aber nicht unmarkiert vermischen.
-
-## Was hier bewusst nicht gezeigt wird
-
-- vollständiger Kerncode
-- Produktions-Compose und Infrastrukturdetails
-- echte Secrets, Tokens oder Keys
-- konkrete IDs, Scopes oder lokale Betriebsdetails
-- operative Sicherheitsmechaniken im Detail
-- private Daten, Logs oder Archivmaterial
-
-## Kontakt
-
-- GitHub-Profil: [IMaugrenI](https://github.com/IMaugrenI)
-- LinkedIn: [Jakob Kessler](https://www.linkedin.com/in/jakob-kessler-595b393b7)
+- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — lauffaehiger lokaler Builder_Stack
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on_prem lokales Wissenssystem
+- [`tof_v7_public_frame`](https://github.com/IMaugrenI/tof-v7-public-frame) — reduzierter oeffentlicher V7_Grenzrahmen

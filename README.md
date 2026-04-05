@@ -2,82 +2,51 @@
 
 > English is the primary text in this repository. A German clone is available in `README_DE.md`.
 
-Public architectural frame for **ToF / V’eth**.
+Public architecture entry point for the broader ToF / Veth project line.
 
-This repository is meant to explain the project line clearly **without pretending to be the full runtime**.
-It shows system reading, separation logic, public principles, selected redacted fragments, and the public repo family around the project line.
+I use this repo to explain the structure publicly without exposing private runtime details.
+It is the best place to understand how the visible repo family fits together.
 
-## At a glance
-
-- **ToF** = technical structure, chain logic, governance, safety, runtime, state, and archive thinking
-- **V’eth** = separate identity, mirror, expression, and symbolic layer
-- **This repo is not the production system**
-- **This repo is not a simple bot wrapper or ordinary chat setup**
-- **This repo is a controlled public frame**
-
-## What this repository is for
-
-- explain the core reading of ToF / V’eth
-- show how layers and spaces are separated
-- document public principles and technical guardrails
-- provide a traceable public entry point into the broader project line
-
-## What this repository is not
-
-- not the private production state
-- not the full runtime code
-- not the full compose or infrastructure setup
-- not a secret dump of internals
-- not a claim that everything public here is the whole system
-
-## Start here
+## start_here
 
 - [`docs/01_overview.md`](docs/01_overview.md) — compact overview
-- [`docs/06_project-line.md`](docs/06_project-line.md) — how the public repo family relates to the broader private project line
 - [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) — what ToF is and what it is not
 - [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — separation of spaces and layers
-- [`docs/04_architecture-fragments.md`](docs/04_architecture-fragments.md) — simplified architecture fragments
 - [`docs/05_public-chain.md`](docs/05_public-chain.md) — reduced public chain reading
+- [`docs/06_project-line.md`](docs/06_project-line.md) — how the public repo family fits together
 
-## How this fits into the public repo landscape
+## what_this_repo_shows
 
-- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) = runnable local builder stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = on-prem local knowledge system
-- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) = reduced public frame for V7 boundaries
-- this showcase repo = public architectural interpretation and separation layer
+1. ToF as technical structure, chain logic, governance, safety, runtime, state, and archive thinking
+2. Veth as a separate identity, mirror, and expression layer
+3. why public explanation must stay separate from private runtime truth
+4. how boundaries and reading rules keep the public frame honest
 
-## Public core reading
+## why_this_repo_exists
 
-The public core reading is intentionally simple:
+1. to give a traceable public entry point into the broader project line
+2. to prevent the project from being read as only a bot surface
+3. to show architecture thinking, separation logic, and documentation discipline
+4. to keep public and private layers clearly distinct
 
-- platforms speak at the outside
-- inside, the system speaks its own language
-- platform logic ends at the edge
-- the core remains platform-neutral
-- language-model output is not the truth core
-- protection, separation, and traceability come before mere response generation
+## what_this_repo_is_not
 
-## Important separation line
+1. not the private production state
+2. not the full runtime code
+3. not the full compose or infrastructure setup
+4. not a hidden internal dump
 
-What matters publicly is:
+## for_employers
 
-- **ToF = structure**
-- **V’eth = expression / identity**
-- **Canon = reference space**
-- **Runtime = active technical truth**
+This repo is useful if you want to see how I think about:
 
-These layers may influence one another, but they must not merge without being marked.
+1. system boundaries
+2. layered architecture
+3. public_safe documentation
+4. separating explanation from implementation truth
 
-## Deliberately not shown here
+## related_public_repos
 
-- full core code
-- production compose and infrastructure details
-- real secrets, tokens, or keys
-- concrete IDs, scopes, or local operating details
-- operational security mechanics in detail
-- private data, logs, or archive material
-
-## Contact
-
-- GitHub profile: [IMaugrenI](https://github.com/IMaugrenI)
-- LinkedIn: [Jakob Kessler](https://www.linkedin.com/in/jakob-kessler-595b393b7)
+- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — runnable local builder stack
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on_prem local knowledge system
+- [`tof_v7_public_frame`](https://github.com/IMaugrenI/tof-v7-public-frame) — reduced public frame for V7 boundaries
