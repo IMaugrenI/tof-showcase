@@ -2,24 +2,24 @@
 
 > Die englische Hauptfassung liegt in `README.md`.
 
-Öffentlicher Architektur-Einstieg in die breitere ToF / Veth-Projektlinie.
+Öffentlicher Architektur-Einstieg für die breitere ToF / Veth-Projektlinie.
 
 Ich nutze dieses Repo, um die Struktur öffentlich zu erklären, ohne private Runtime-Details offenzulegen.
 Es ist der beste Ort, um zu verstehen, wie die sichtbare Repo-Familie zusammenhängt.
 
-Lies dieses Repo, wenn du die Architektursicht des Projekts verstehen willst und nicht die lauffähige Produktsicht.
+Lies dieses Repo, wenn du die Architektursicht des Projekts sehen willst und nicht die Sicht auf das lauffähige Produkt.
 
 ## Einstieg
 
-- [`docs/01_overview.md`](docs/01_overview.md) — kompakte Übersicht
-- [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) — was ToF ist und was es nicht ist
-- [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — Trennung von Räumen und Schichten
+- [`docs/01_overview.md`](docs/01_overview.md) — kompakter Überblick
+- [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) — was ToF ist und was nicht
+- [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — Trennung von Räumen und Ebenen
 - [`docs/05_public-chain.md`](docs/05_public-chain.md) — reduzierte öffentliche Kettenlesart
 - [`docs/06_project-line.md`](docs/06_project-line.md) — wie die öffentliche Repo-Familie zusammenhängt
 
 ## Was dieses Repo zeigt
 
-1. ToF als technische Struktur, Kettenlogik, Governance-, Safety-, Runtime-, State- und Archiv-Denke
+1. ToF als technische Struktur, Kettenlogik, Governance, Safety, Runtime-, State- und Archiv-Denke
 2. Veth als eigene Identitäts-, Spiegel- und Ausdrucksschicht
 3. warum öffentliche Erklärung von privater Runtime-Wahrheit getrennt bleiben muss
 4. wie Grenzen und Leseregeln den öffentlichen Rahmen ehrlich halten
@@ -40,12 +40,12 @@ Lies dieses Repo, wenn du die Architektursicht des Projekts verstehen willst und
 
 ## Für Arbeitgeber
 
-Dieses Repo ist nützlich, wenn du sehen willst, wie ich über Folgendes nachdenke:
+Dieses Repo ist nützlich, wenn du sehen willst, wie ich über Folgendes denke:
 
 1. Systemgrenzen
 2. geschichtete Architektur
 3. public-safe Dokumentation
-4. Trennung zwischen Erklärung und Umsetzungswahrheit
+4. die Trennung von Erklärung und Implementierungswahrheit
 
 ## Verwandte öffentliche Repos
 
