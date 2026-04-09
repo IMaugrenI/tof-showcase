@@ -2,51 +2,53 @@
 
 > Die englische Hauptfassung liegt in `README.md`.
 
-Oeffentlicher Architektur_Einstieg in die breitere ToF / Veth Projektlinie.
+Öffentlicher Architektur-Einstieg in die breitere ToF / Veth-Projektlinie.
 
-Ich nutze dieses Repo, um die Struktur oeffentlich zu erklaeren, ohne private Runtime_Details offenzulegen.
-Es ist der beste Ort, um zu verstehen, wie die sichtbare Repo_Familie zusammenhaengt.
+Ich nutze dieses Repo, um die Struktur öffentlich zu erklären, ohne private Runtime-Details offenzulegen.
+Es ist der beste Ort, um zu verstehen, wie die sichtbare Repo-Familie zusammenhängt.
 
-## start_here
+Lies dieses Repo, wenn du die Architektursicht des Projekts verstehen willst und nicht die lauffähige Produktsicht.
 
-- [`docs/01_overview.md`](docs/01_overview.md) — kompakter Ueberblick
+## Einstieg
+
+- [`docs/01_overview.md`](docs/01_overview.md) — kompakte Übersicht
 - [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) — was ToF ist und was es nicht ist
-- [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — Trennung von Raeumen und Ebenen
-- [`docs/05_public-chain.md`](docs/05_public-chain.md) — reduzierte oeffentliche Kettenlesart
-- [`docs/06_project-line.md`](docs/06_project-line.md) — wie die oeffentliche Repo_Familie zusammenpasst
+- [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — Trennung von Räumen und Schichten
+- [`docs/05_public-chain.md`](docs/05_public-chain.md) — reduzierte öffentliche Kettenlesart
+- [`docs/06_project-line.md`](docs/06_project-line.md) — wie die öffentliche Repo-Familie zusammenhängt
 
-## was_dieses_repo_zeigt
+## Was dieses Repo zeigt
 
-1. ToF als technische Struktur, Kettenlogik, Governance, Safety, Runtime, State und Archiv_Denken
-2. Veth als getrennte Identitaets_, Spiegel_ und Ausdrucksebene
-3. warum oeffentliche Erklaerung von privater Runtime_Wahrheit getrennt bleiben muss
-4. wie Grenzen und Leseregeln den oeffentlichen Rahmen ehrlich halten
+1. ToF als technische Struktur, Kettenlogik, Governance-, Safety-, Runtime-, State- und Archiv-Denke
+2. Veth als eigene Identitäts-, Spiegel- und Ausdrucksschicht
+3. warum öffentliche Erklärung von privater Runtime-Wahrheit getrennt bleiben muss
+4. wie Grenzen und Leseregeln den öffentlichen Rahmen ehrlich halten
 
-## warum_dieses_repo_existiert
+## Warum dieses Repo existiert
 
-1. um einen nachvollziehbaren oeffentlichen Einstieg in die breitere Projektlinie zu geben
-2. um zu verhindern, dass das Projekt nur als Bot_Oberflaeche gelesen wird
-3. um Architektur_Denken, Trennlogik und Dokumentationsdisziplin sichtbar zu machen
-4. um oeffentliche und private Ebenen klar getrennt zu halten
+1. um einen nachvollziehbaren öffentlichen Einstieg in die breitere Projektlinie zu geben
+2. um zu verhindern, dass das Projekt nur als Bot-Oberfläche gelesen wird
+3. um Architekturdenken, Trennlogik und Dokumentationsdisziplin sichtbar zu machen
+4. um öffentliche und private Ebenen klar getrennt zu halten
 
-## was_dieses_repo_nicht_ist
+## Was dieses Repo nicht ist
 
 1. nicht der private Produktionsstand
-2. nicht der vollstaendige Runtime_Code
-3. nicht das vollstaendige Compose_ oder Infrastruktur_Setup
+2. nicht der vollständige Runtime-Code
+3. nicht das vollständige Compose- oder Infrastruktur-Setup
 4. kein versteckter interner Dump
 
-## fuer_arbeitgeber
+## Für Arbeitgeber
 
-Dieses Repo ist nuetzlich, wenn du sehen willst, wie ich ueber folgende Dinge nachdenke:
+Dieses Repo ist nützlich, wenn du sehen willst, wie ich über Folgendes nachdenke:
 
 1. Systemgrenzen
 2. geschichtete Architektur
-3. public_safe Dokumentation
-4. die Trennung zwischen Erklaerung und Implementierungswahrheit
+3. public-safe Dokumentation
+4. Trennung zwischen Erklärung und Umsetzungswahrheit
 
-## verwandte_oeffentliche_repos
+## Verwandte öffentliche Repos
 
-- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — lauffaehiger lokaler Builder_Stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on_prem lokales Wissenssystem
-- [`tof_v7_public_frame`](https://github.com/IMaugrenI/tof-v7-public-frame) — reduzierter oeffentlicher V7_Grenzrahmen
+- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — lauffähiger lokaler Builder-Stack
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on-prem lokales Wissenssystem
+- [`tof_v7_public_frame`](https://github.com/IMaugrenI/tof-v7-public-frame) — reduzierter öffentlicher Rahmen für V7-Grenzen
