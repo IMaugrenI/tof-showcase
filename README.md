@@ -7,6 +7,8 @@ Public architecture entry point for the broader ToF / Veth project line.
 I use this repo to explain the structure publicly without exposing private runtime details.
 It is the best place to understand how the visible repo family fits together.
 
+Read this repo if you want the architecture view of the project, not the runnable product view.
+
 ## start_here
 
 - [`docs/01_overview.md`](docs/01_overview.md) — compact overview
@@ -42,11 +44,11 @@ This repo is useful if you want to see how I think about:
 
 1. system boundaries
 2. layered architecture
-3. public_safe documentation
+3. public-safe documentation
 4. separating explanation from implementation truth
 
 ## related_public_repos
 
 - [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — runnable local builder stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on_prem local knowledge system
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on-prem local knowledge system
 - [`tof_v7_public_frame`](https://github.com/IMaugrenI/tof-v7-public-frame) — reduced public frame for V7 boundaries
