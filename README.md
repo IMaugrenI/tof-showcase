@@ -17,6 +17,10 @@ Read this repo if you want the architecture view of the project, not the runnabl
 - [`docs/05_public-chain.md`](docs/05_public-chain.md) — reduced public chain reading
 - [`docs/06_project-line.md`](docs/06_project-line.md) — how the public repo family fits together
 
+## Scale
+
+The public frame shown here sits in front of a private production system built and operated solo — 52 containerized services on a self-hosted Linux server, running since early 2025. What is shown publicly is deliberately reduced. The underlying system is not.
+
 ## what_this_repo_shows
 
 1. ToF as technical structure, chain logic, governance, safety, runtime, state, and archive thinking
