@@ -7,6 +7,8 @@
 Ich nutze dieses Repo, um die Struktur öffentlich zu erklären, ohne private Runtime-Details offenzulegen.
 Es ist der beste Ort, um zu verstehen, wie die sichtbare Repo-Familie zusammenhängt.
 
+Dieses Repository ist ein öffentlicher Beleg für Architektur- und Leseregel-Arbeit unter KI-gestützten Build-Bedingungen. Es soll kein klassischer Beweis für manuell Zeile für Zeile geschriebenen Code sein. Es soll zeigen, wie öffentliches Systemframing, Trennlogik und kontrollierte Erklärung unter menschlicher Führung geformt werden können.
+
 Lies dieses Repo, wenn du die Architektursicht des Projekts sehen willst und nicht die Sicht auf das lauffähige Produkt.
 
 ## Einstieg
@@ -16,6 +18,19 @@ Lies dieses Repo, wenn du die Architektursicht des Projekts sehen willst und nic
 - [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — Trennung von Räumen und Ebenen
 - [`docs/05_public-chain.md`](docs/05_public-chain.md) — reduzierte öffentliche Kettenlesart
 - [`docs/06_project-line.md`](docs/06_project-line.md) — wie die öffentliche Repo-Familie zusammenhängt
+
+## Scale
+
+Der hier gezeigte öffentliche Rahmen steht vor einem privaten Produktivsystem, das alleine aufgebaut und betrieben wird — 52 containerisierte Services auf einem self-hosted Linux-Server, aktiv seit Anfang 2025. Was hier öffentlich gezeigt wird, ist bewusst reduziert. Das darunterliegende System ist es nicht.
+
+## Meine Rolle in diesem Repo
+
+Meine Rolle hier ist vor allem:
+
+1. Architektur und Trennlogik
+2. öffentliche Rahmung und Leseregeln
+3. Scope-Reduktion und Review
+4. KI-gestützte Umsetzung unter meiner Führung
 
 ## Was dieses Repo zeigt
 

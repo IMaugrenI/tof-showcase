@@ -7,6 +7,8 @@ Public architecture entry point for the broader ToF / Veth project line.
 I use this repo to explain the structure publicly without exposing private runtime details.
 It is the best place to understand how the visible repo family fits together.
 
+This repository is public proof of architecture and reading-rule work under AI-assisted build conditions. It is not meant to present classic line-by-line coding proof. It is meant to show how public system framing, separation logic, and controlled explanation can be shaped under human direction.
+
 Read this repo if you want the architecture view of the project, not the runnable product view.
 
 ## Start here
@@ -20,6 +22,15 @@ Read this repo if you want the architecture view of the project, not the runnabl
 ## Scale
 
 The public frame shown here sits in front of a private production system built and operated solo — 52 containerized services on a self-hosted Linux server, running since early 2025. What is shown publicly is deliberately reduced. The underlying system is not.
+
+## My role in this repo
+
+My role here is mainly:
+
+1. architecture and separation logic
+2. public framing and reading rules
+3. scope reduction and review
+4. AI-assisted implementation under my direction
 
 ## What this repo shows
 
