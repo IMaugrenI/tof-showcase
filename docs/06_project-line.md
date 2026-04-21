@@ -4,6 +4,8 @@
 
 This document explains how the public repositories relate to the larger private ToF / V’eth main project line.
 
+> This page explains system context and repo relationships. For concrete product combinations, see `01_product_line.md`.
+
 ## Why this page exists
 
 A public repository can easily look either too abstract or too small if the broader context stays invisible.
