@@ -11,9 +11,20 @@ This repository is public proof of architecture and reading-rule work under AI-a
 
 Read this repo if you want the architecture view of the project, not the runnable product view.
 
+## Product Line
+
+The visible public repos also form a modular product line.
+
+Each tool works standalone.
+Some tools can be combined in defined ways.
+Not all combinations are supported.
+
+→ See: [`docs/01_product_line.md`](docs/01_product_line.md)
+
 ## Start here
 
 - [`docs/01_overview.md`](docs/01_overview.md) — compact overview
+- [`docs/01_product_line.md`](docs/01_product_line.md) — standalone tools, valid pairings, and supported chain logic
 - [`docs/02_what-is-tof.md`](docs/02_what-is-tof.md) — what ToF is and what it is not
 - [`docs/03_layer-separation.md`](docs/03_layer-separation.md) — separation of spaces and layers
 - [`docs/05_public-chain.md`](docs/05_public-chain.md) — reduced public chain reading
@@ -38,6 +49,7 @@ My role here is mainly:
 2. Veth as a separate identity, mirror, and expression layer
 3. why public explanation must stay separate from private runtime truth
 4. how boundaries and reading rules keep the public frame honest
+5. how the public tools stay modular instead of collapsing into one monolith
 
 ## Why this repo exists
 
@@ -52,6 +64,7 @@ My role here is mainly:
 2. not the full runtime code
 3. not the full compose or infrastructure setup
 4. not a hidden internal dump
+5. not a merged super-app of all public tools
 
 ## For employers
 
@@ -61,6 +74,7 @@ This repo is useful if you want to see how I think about:
 2. layered architecture
 3. public-safe documentation
 4. separating explanation from implementation truth
+5. modular tool families with constrained combinations
 
 ## Related public repos
 
