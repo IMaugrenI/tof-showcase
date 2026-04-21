@@ -6,6 +6,8 @@ Jedes Tool funktioniert für sich allein.
 Einige Tools können in definierten Kombinationen zusammen genutzt werden.
 Nicht alle Kombinationen sind vorgesehen.
 
+> Diese Seite beschreibt Rollen und Kombinationen. Für die Einordnung in die Gesamtprojektlinie siehe `06_project-line_DE.md`.
+
 ## Rollen
 
 | Rolle | Repo |
