@@ -4,6 +4,8 @@
 
 Dieses Dokument erklärt, wie die öffentlichen Repositories zur größeren privaten ToF / V’eth-Hauptlinie stehen.
 
+> Diese Seite beschreibt Systemkontext und Repo-Beziehungen. Für konkrete Produktkombinationen siehe `01_product_line_DE.md`.
+
 ## Warum diese Seite existiert
 
 Ein öffentliches Repository kann leicht zu abstrakt oder zu klein wirken, wenn der größere Kontext unsichtbar bleibt.
