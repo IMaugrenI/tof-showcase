@@ -64,6 +64,19 @@ This repo is useful if you want to see how I think about:
 
 ## Related public repos
 
+### Public runnable product line
+
+- [`tof_container_pulse`](https://github.com/IMaugrenI/tof_container_pulse) — lightweight Docker host status viewer with one-glance monitoring and optional multi-host mode
+- [`local_case_organizer`](https://github.com/IMaugrenI/local_case_organizer) — local dossier builder for sensitive case files, timelines, and export packages
 - [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — runnable local builder stack
 - [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on-prem local knowledge system
+
+### Public architecture and framing line
+
 - [`tof_v7_public_frame`](https://github.com/IMaugrenI/tof-v7-public-frame) — reduced public frame for V7 boundaries
+
+### Public method and transition line
+
+- [`tof-module-ideas`](https://github.com/IMaugrenI/tof-module-ideas) — public-safe candidate space for larger module ideas
+- [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — recovery workbench for older mixed material
+- [`tof-bridge-planning-method`](https://github.com/IMaugrenI/tof-bridge-planning-method) — bridge-planning layer for structured translation work
