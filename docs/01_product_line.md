@@ -6,6 +6,8 @@ Each tool works standalone.
 Some tools can be combined in defined ways to extend capability.
 Not all combinations are supported.
 
+> This page explains product roles and valid combinations. For the broader place of these repos inside the private/public project line, see `06_project-line.md`.
+
 ---
 
 ## Roles
