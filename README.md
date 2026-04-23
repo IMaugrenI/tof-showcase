@@ -1,5 +1,9 @@
 # ToF Showcase
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IMaugrenI/IMaugrenI/main/assets/banner/V7_Banner.png" alt="ToF / V7 Showcase Banner" width="100%" />
+</p>
+
 > English is the primary text in this repository. A German mirror is available in `README_DE.md`.
 
 Public architecture entry point for the broader ToF / V’eth project line.
