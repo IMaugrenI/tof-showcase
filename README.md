@@ -22,6 +22,7 @@ This repo is not a product repo, not the private runtime, and not a hidden code 
 
 ## Where to go next
 
+- `docs/INDEX.md` — compact documentation entry map
 - `docs/01_product_line.md` — product roles and valid combinations
 - `docs/07_product_workflows.md` — explicit public workflows
 - `docs/06_project-line.md` — how the public repos relate to the larger private line
@@ -68,8 +69,13 @@ If you want the clearest product proof first:
 If you want the tighter architectural reading next:
 
 1. `tof-v7-public-frame`
-2. `docs/01_product_line.md`
-3. `docs/07_product_workflows.md`
+2. `docs/INDEX.md`
+3. `docs/01_product_line.md`
+4. `docs/07_product_workflows.md`
+
+## Documentation Index
+
+→ `docs/INDEX.md`
 
 ## Product Line
 
