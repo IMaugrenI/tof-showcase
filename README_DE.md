@@ -22,6 +22,7 @@ Dieses Repo ist kein Produkt-Repo, nicht die private Runtime und kein versteckte
 
 ## Wohin du als Nächstes gehen kannst
 
+- `docs/INDEX.md` — kompakte Dokumentations-Einstiegskarte
 - `docs/01_product_line.md` — Produktrollen und gültige Kombinationen
 - `docs/07_product_workflows.md` — explizite öffentliche Workflows
 - `docs/06_project-line.md` — wie die öffentlichen Repos zur größeren privaten Linie gehören
@@ -68,8 +69,13 @@ Wenn du zuerst den klarsten Produktbeleg sehen willst:
 Wenn du als Nächstes die engere Architektur-Lesart willst:
 
 1. `tof-v7-public-frame`
-2. `docs/01_product_line.md`
-3. `docs/07_product_workflows.md`
+2. `docs/INDEX.md`
+3. `docs/01_product_line.md`
+4. `docs/07_product_workflows.md`
+
+## Dokumentationsindex
+
+→ `docs/INDEX.md`
 
 ## Produktlinie
 
