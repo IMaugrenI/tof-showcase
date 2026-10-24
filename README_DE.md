@@ -1,92 +1,59 @@
-# ToF Showcase
+# ToF Systems — Projekte & Architektur
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IMaugrenI/IMaugrenI/main/assets/banner/V7_Banner.png" alt="ToF / V7 Showcase Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/IMaugrenI/IMaugrenI/main/assets/banner/ToF_Banner.png" alt="ToF Systems Banner" width="100%" />
 </p>
 
-> Die englische Hauptfassung liegt in `README.md`.
+**Lokale Software, selbst gehostete KI und klar abgegrenzte Systeme.**
 
-> **Zum ersten Mal hier?** Lies [START_HERE_DE.md](START_HERE_DE.md). Es ist keine Installation nötig; dort findest du einen Fünf-Minuten-Lesepfad durch die öffentliche Repo-Familie.
+Dieses Repository ist der öffentliche Wegweiser durch die Projektfamilie von ToF Systems. Es zeigt, was die einzelnen Werkzeuge leisten, wie ihre Architekturideen zusammenhängen und wo praktische Beispiele liegen. Es ist eine **Übersicht**, keine Produktinstallation und kein Spiegel einer privaten Runtime.
 
-Öffentlicher Architektur-Einstieg für die breitere ToF / V’eth-Projektlinie.
+[English](README.md) · [Einstieg](START_HERE_DE.md) · [Dokumentationsindex](docs/INDEX.md)
 
-## Was dieses Repo ist
+## Mit einem konkreten Projekt anfangen
 
-Dieses Repository ist der breite öffentliche Architektur- und Rahmungs-Einstiegspunkt für die öffentliche Repo-Familie.
+| Öffentliches Projekt | Aufgabe | Praktischer Nutzen |
+| --- | --- | --- |
+| [Container Pulse](https://github.com/IMaugrenI/tof_container_pulse) | **Observe** | Lokale, schreibgeschützte Dashboards für Docker- und Host-Signale erzeugen. |
+| [Local Knowledge](https://github.com/IMaugrenI/tof_local_knowledge) | **Ground** | Lokale Dokumente indexieren, Belege suchen und Fragen mit Quellenkontext beantworten. |
+| [Local Builder](https://github.com/IMaugrenI/tof_local_builder) | **Generate** | Lokale Modelle mit kontrolliertem Quellzugriff und getrennter Ergebnisausgabe verwenden. |
+| [Local Case Organizer](https://github.com/IMaugrenI/local_case_organizer) | **Structure** | Dateien in Register, Zeitachsen und prüfbare Exportpakete überführen. |
 
-## Für wen es gedacht ist
+Jedes Projekt besitzt eigene Angaben zu unterstützten Plattformen, Funktionsumfang und Grenzen im README und unter `START_HERE.md`.
 
-Dieses Repo ist für Profilbesucher, technische Leser sowie potenzielle Arbeitgeber, Sponsoren oder Kollaborationspartner, die zuerst den klarsten öffentlichen Überblick sehen wollen, bevor sie in spezifischere Produkt- oder Methoden-Repos gehen.
+## Ein Ansatz, eigenständige Werkzeuge
 
-## Was es nicht ist
+**Observe → Ground → Generate → Structure** beschreibt ergänzende Verantwortlichkeiten. Es bedeutet **nicht**, dass bereits alle Repositories eine fertige gemeinsame Anwendung oder automatisch verbundene Verarbeitungskette bilden.
 
-Dieses Repo ist kein Produkt-Repo, nicht die private Runtime und kein versteckter Code-Dump.
+Die gemeinsame Entwicklungsrichtung ist praktisch: nach Möglichkeit lokal ausführen, vertrauenswürdige Quellen von generierten Ergebnissen trennen, Nachweise sichtbar halten und folgenreiche Aktionen nur mit passender Berechtigung zulassen.
 
-## Wohin du als Nächstes gehen kannst
+## Architektur und Methoden
 
-- `docs/INDEX.md` — kompakte Dokumentations-Einstiegskarte
-- `docs/01_product_line.md` — Produktrollen und gültige Kombinationen
-- `docs/07_product_workflows.md` — explizite öffentliche Workflows
-- `docs/06_project-line.md` — wie die öffentlichen Repos zur größeren privaten Linie gehören
-- `tof-v7-public-frame` — engere öffentliche Boundary-Lesart nach diesem breiteren Frame
+| Referenz | Zweck |
+| --- | --- |
+| [Architekturreferenz (V7)](https://github.com/IMaugrenI/tof-v7-public-frame) | Versionsbezogene öffentliche Beschreibung von Dienst- und Datengrenzen. V7 gehört zur Entwicklungsgeschichte; die interne Versionsfolge muss man nicht kennen. |
+| [Modulideen](https://github.com/IMaugrenI/tof-module-ideas) | Größere Modulkandidaten vor einer Implementierung beschreiben und einordnen. |
+| [Legacy Recovery Workbench](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) | Ältere gemischte Materialien in Belege, Hypothesen und Prüfschritte trennen. |
+| [Bridge Planning Method](https://github.com/IMaugrenI/tof-bridge-planning-method) | Vorbereitete Materialien zu prüfbaren Planungskandidaten weiterentwickeln, ohne sie stillschweigend zu ausführbarem Code zu erklären. |
 
-## Warum dieses Repo existiert
+Diese Repositories bilden **Methoden und Referenzen** ab; sie sind nicht mit den direkt nutzbaren Werkzeugen gleichzusetzen.
 
-Dieses Repo existiert, um einen breiten öffentlichen Ersteindruck der Repo-Familie zu geben, bevor ein Leser die engeren Produkt-Repos oder den strengeren V7-Boundary-Frame öffnet.
+## Durch die Dokumentation navigieren
 
-Es soll drei Fragen schnell beantworten:
+- [Einstieg](START_HERE_DE.md) — kurzer Lesepfad für neue Besucher.
+- [Dokumentationsindex](docs/INDEX.md) — Überblick der öffentlichen Dokumentation.
+- [Projektrollen](docs/01_product_line.md) — Aufgaben und mögliche Kombinationen.
+- [Praktische Abläufe](docs/07_product_workflows.md) — öffentliche Beispiele mit beschriebenen Grenzen.
+- [Projektkontext](docs/06_project-line.md) — Bezug zur umfassenderen privaten Entwicklungsarbeit.
 
-1. welche Art Projektlinie das ist
-2. was die öffentliche Repo-Familie enthält
-3. wo ein Leser als Nächstes klicken sollte
+## Was diese Arbeit zeigt
 
-## Öffentliche Repo-Familie auf einen Blick
+- Local-First-Architektur und selbst gehosteten Betrieb.
+- Klare Zuständigkeiten für Eingabe, Wissen, Generierung und Ausgabe.
+- Menschlich gesteuerte KI-Implementierung mit prüfbaren Ergebnissen.
+- Unterscheidung zwischen Architekturzielen und nachweislich umgesetztem Verhalten.
+- Öffentliche Beispiele ohne Offenlegung privater Betriebsumgebungen.
 
-### Produktlinie
+**Wichtig:** Eine öffentliche Architekturzeichnung ist kein Betriebsnachweis. Für Implementierung, Einrichtung, Plattformunterstützung und Entwicklungsreife ist jeweils das ausführbare Produkt-Repository maßgeblich. Eine pauschale Produktionsreife oder vollständige Integration der gesamten Projektfamilie wird nicht behauptet.
 
-- `tof_container_pulse` — Observe: lokaler Docker-Host-Status auf einen Blick
-- `tof_local_knowledge` — Ground: lokale Dokumenten-Indexierung, Evidenzsuche, grounded Answers
-- `tof_local_builder` — Generate: kontrollierter lokaler KI-Builder mit read-only Quelle und Sandbox-Ausgabe
-- `local_case_organizer` — Structure: lokaler Dossier-Aufbau, Timelines und Exportpakete
-
-### Architektur / Framing
-
-- `tof-v7-public-frame` — reduzierte öffentliche Boundary-Lesart für V7
-
-### Methode / Übergang
-
-- `tof-legacy-recovery-workbench` — Recovery-Disziplin für älteres gemischtes Material
-- `tof-bridge-planning-method` — strukturierte Brücke von vorbereiteten Blöcken zu Kandidaten
-- `tof-module-ideas` — public-safe Raum für Modulkandidaten vor Runtime
-
-## Beste nächste Klicks
-
-Wenn du zuerst den klarsten Produktbeleg sehen willst:
-
-1. `tof_container_pulse`
-2. `tof_local_knowledge`
-3. `tof_local_builder`
-4. `local_case_organizer`
-
-Wenn du als Nächstes die engere Architektur-Lesart willst:
-
-1. `tof-v7-public-frame`
-2. `docs/INDEX.md`
-3. `docs/01_product_line.md`
-4. `docs/07_product_workflows.md`
-
-## Dokumentationsindex
-
-→ `docs/INDEX.md`
-
-## Produktlinie
-
-→ `docs/01_product_line.md`
-
-## Praktische Workflows
-
-→ `docs/07_product_workflows.md`
-
-## Projektkontext
-
-→ `docs/06_project-line.md`
+[Zurück zum GitHub-Profil von Jakob Kessler](https://github.com/IMaugrenI)
