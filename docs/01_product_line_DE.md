@@ -1,6 +1,6 @@
-# Öffentliche Produktlinie
+# Öffentliche Werkzeuge — Rollen und manuelle Kombinationen
 
-Dieses Repository ist Teil einer modularen, lokalen Produktlinie.
+Die öffentlichen Werkzeuge von ToF Systems sind eigenständige Local-First-Projekte mit ergänzenden Aufgaben.
 
 Jedes Tool funktioniert für sich allein.
 Einige Tools können in definierten Kombinationen zusammen genutzt werden.
@@ -13,9 +13,9 @@ Nicht alle Kombinationen sind vorgesehen.
 | Rolle | Repo |
 |------|------|
 | Beobachten | tof_container_pulse |
-| Struktur | local_case_organizer |
-| Erzeugen | tof_local_builder |
 | Grundlage / Wissen | tof_local_knowledge |
+| Erzeugen | tof_local_builder |
+| Struktur | local_case_organizer |
 
 ## Standalone
 
@@ -27,9 +27,11 @@ Jedes Tool ist eigenständig nutzbar.
 - Builder + Organizer
 - Knowledge + Organizer
 
-## Kette
+## Optionale manuelle Abfolge
 
 Knowledge → Builder → Organizer
+
+Das ist ein **bewusst vom Nutzer gesteuertes Übergabebeispiel**, keine bereits veröffentlichte gemeinsame Runtime und kein automatisierter Ablauf. Material muss an jedem Übergang geprüft werden.
 
 ## Sonderrolle
 
