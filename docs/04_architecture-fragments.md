@@ -1,51 +1,25 @@
-# Architecture Fragments
+# System Architecture — Public Overview
 
-This document deliberately shows only a simplified view.
+The earlier ToF architecture describes **separate responsibilities** rather than a single bot process. This document is a deliberately reduced conceptual view, not a complete deployment diagram.
 
-## Public reading
+## Processing responsibilities
 
-The system is not publicly read as a single bot, but as a layered structure with separated spaces of responsibility.
+- **Input and intake:** receive material through controlled entry points.
+- **Checking and filtering:** establish basic validity and context.
+- **Governance and safety:** apply permissions, protection, and decision boundaries.
+- **Analysis and processing:** interpret and work with accepted input.
+- **State and retention:** distinguish current state from retained records.
+- **Archiving:** preserve historical material and provenance.
+- **Output preparation and delivery:** prepare a response without making generated text the system's source of truth.
 
-What is visibly simplified here includes:
+These are responsibility categories. Their presentation does not assert that each category is one service, one container, or one universally deployed step.
 
-- input and intake
-- checking and pre-filtering
-- governance and protection logic
-- analysis and processing
-- state and retention
-- archiving
-- output preparation and output
+## Keep platform behavior at the edge
 
-## Edge principle
+External platforms have their own events and message formats. Adapters translate those inputs into internal representations, so platform-specific behavior need not define the system core.
 
-External platforms speak their own language.  
-The core speaks its own system language.
+## Evidence and scope
 
-This means:
+This architecture sketch deliberately omits private runtime paths, operator procedures, service configuration, and security-sensitive details. Use [the public product repositories](../README.md) to inspect working implementations, not this conceptual sketch.
 
-- platform logic remains at the edge
-- adapters handle translation
-- the inner system space stays separate and stable
-
-## Why only fragments?
-
-The real system depth remains private.
-
-What is shown publicly is only:
-
-- the way of thinking
-- the coarse structure
-- layer separation
-- principles
-
-## What this document deliberately does not do
-
-This document is not:
-
-- a full architecture release
-- operating documentation
-- security documentation
-- a runtime specification
-- an infrastructure blueprint
-
-It is a reduced outside reading.
+[Processing chain](05_public-chain.md) · [Layer responsibilities](03_layer-separation.md)
