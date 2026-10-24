@@ -6,7 +6,7 @@ The goal is orientation, not full internal disclosure. Start here when you want 
 
 ## Fast path
 
-1. [`01_overview.md`](01_overview.md) — broad public overview of ToF / V’eth
+1. [`01_overview.md`](01_overview.md) — older public architecture overview and terminology
 2. [`01_product_line.md`](01_product_line.md) — public product roles and valid combinations
 3. [`07_product_workflows.md`](07_product_workflows.md) — explicit manual workflows between product repos
 4. [`06_project-line.md`](06_project-line.md) — how the public repos relate to the larger private project line
@@ -18,7 +18,7 @@ The goal is orientation, not full internal disclosure. Start here when you want 
 - [`02_what-is-tof.md`](02_what-is-tof.md) — what ToF is and what it is not
 - [`03_layer-separation.md`](03_layer-separation.md) — separation between ToF, V’eth, runtime, workbench, archive, canon, and public surface
 - [`05_public-chain.md`](05_public-chain.md) — simplified processing chain, with LLM/output late in the path
-- [`06_project-line.md`](06_project-line.md) — public slices versus the larger private ToF / V’eth line
+- [`06_project-line.md`](06_project-line.md) — current public tools and their broader development context
 
 ## Product-line reading
 
@@ -36,7 +36,7 @@ The goal is orientation, not full internal disclosure. Start here when you want 
 
 ### Architecture / framing
 
-- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) — tighter public boundary reading for V7
+- [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame) — version-tagged architecture reference on system boundaries
 
 ### Method / transition
 
@@ -62,4 +62,4 @@ For product behavior, start with [`01_product_line.md`](01_product_line.md).
 
 For system context, start with [`06_project-line.md`](06_project-line.md).
 
-For the strictest public boundary frame, go to [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame).
+For the version-tagged architecture reference, go to [`tof-v7-public-frame`](https://github.com/IMaugrenI/tof-v7-public-frame).
