@@ -1,34 +1,27 @@
-# Was ToF ist
+# Technische Architektur — Was ToF bedeutet
 
-ToF ist kein Discord-Bot mit Extras und kein einfacher LLM-Aufbau.
+**ToF** bezeichnet den technischen Strukturierungsansatz innerhalb der übergreifenden Arbeit an **ToF Systems**. Es steht nicht einfach für einen Discord-Bot, eine Chat-Oberfläche oder ein Sprachmodell.
 
-ToF ist als technischer Ordnungsraum gedacht, in dem Verarbeitung, Zuständigkeit, Schutz, Zustand und Archivierung bewusst getrennt werden.
+Die Grundidee ist eine modulare Architektur mit klarer Behandlung von Verarbeitung, Berechtigung, Schutz, Zustand und historischen Aufzeichnungen.
 
-## ToF in Kurzform
+## Technische Schwerpunkte
 
-ToF steht für einen modularen Systemraum mit Fokus auf:
+- Eindeutige Verarbeitungsschritte und Zuständigkeiten.
+- Grenzen zwischen Diensten und Datenräumen.
+- Governance und Schutz vor folgenreichen Aktionen.
+- Trennung von aktuellem Zustand, gespeicherter Historie und geregeltem Referenzmaterial.
+- Plattformunabhängige Kernlogik mit Adaptern an den Schnittstellen.
 
-- klare Kettenlogik
-- getrennte Verantwortlichkeiten
-- Governance- und Schutzdenken
-- State-, Retention- und Archivlogik
-- plattformneutrale Innenstruktur mit Adaptern am Rand
+Das beschreibt **Architekturprinzipien** und behauptet nicht, dass jedes Detail in jedem öffentlichen Repository umgesetzt ist.
 
-## Was ToF nicht ist
+## Was der Name nicht bedeutet
 
-ToF ist öffentlich ausdrücklich nicht zu lesen als:
+Der technische Ansatz ist nicht auf einen Chatbot, LLM-Wrapper, monolithischen Bot oder eine bestimmte Plattform beschränkt. Die öffentlichen Werkzeuge sind eigenständig nutzbar und erfordern keine private Assistenten-Runtime.
 
-- gewöhnlicher Chatbot
-- LLM-Wrapper
-- monolithischer Bot-Kern
-- Plattformlogik im Systemzentrum
-- blind antwortendes Antwortsystem
+## Historische Bezeichnungen: ToF und V’eth
 
-## Verhältnis zu V’eth
+Frühere Architekturdokumente unterscheiden **ToF (technische Struktur)** und **V’eth (Identität und Ausdruck)**. Diese Trennung verhindert, dass eine Persona oder symbolische Darstellung unbemerkt Systementscheidungen bestimmt.
 
-ToF und V’eth gehören zusammen, sind aber nicht dasselbe.
+Für die heutige öffentliche Orientierung ist **ToF Systems** die gemeinsame Projektidentität. Die beiden älteren Begriffe bleiben hier nur dort erhalten, wo sie eine wichtige Architekturgrenze erläutern.
 
-- **ToF = Struktur**
-- **V’eth = Ausdruck / Identität / Spiegelung**
-
-Der technische Kern bleibt vom Ausdrucksraum getrennt.
+[Weiter zur Zuständigkeitstrennung](03_layer-separation_DE.md)
