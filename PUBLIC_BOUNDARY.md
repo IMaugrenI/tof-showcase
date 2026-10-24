@@ -1,6 +1,9 @@
-# Public boundary
+# Public Documentation Boundary
 
-This repository is a controlled public frame.
+ToF Showcase is the **public entry point** for ToF Systems projects, architecture ideas, and supporting methods. It does not expose the private runtime.
 
-V’eth is referenced here only as a separate identity, mirror, expression, and symbolic layer.
-That public naming does not disclose private canon material, runtime-sensitive details, operator paths, or full production truth.
+Earlier documentation uses **V’eth** for identity, mirroring, and expression. That term remains here to explain the separation of presentation from technical authority; it is not required terminology for exploring the public tools.
+
+Public pages may describe reduced system concepts and link to runnable open-source repositories. They must not expose private canon contents, credentials, internal operator paths, runtime-sensitive details, or full production maps.
+
+**Public architecture descriptions are not operational evidence.** Consult individual product repositories for their actual scope and functionality.
