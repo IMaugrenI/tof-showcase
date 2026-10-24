@@ -6,6 +6,8 @@
 
 > Die englische Hauptfassung liegt in `README.md`.
 
+> **Zum ersten Mal hier?** Lies [START_HERE_DE.md](START_HERE_DE.md). Es ist keine Installation nötig; dort findest du einen Fünf-Minuten-Lesepfad durch die öffentliche Repo-Familie.
+
 Öffentlicher Architektur-Einstieg für die breitere ToF / V’eth-Projektlinie.
 
 ## Was dieses Repo ist

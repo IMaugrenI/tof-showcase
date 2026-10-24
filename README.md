@@ -6,6 +6,8 @@
 
 > English is the primary text in this repository. A German mirror is available in `README_DE.md`.
 
+> **First visit?** Read [START_HERE.md](START_HERE.md). No installation is required; it gives you a five-minute reading path through the public repo family.
+
 Public architecture entry point for the broader ToF / V’eth project line.
 
 ## What this repo is
