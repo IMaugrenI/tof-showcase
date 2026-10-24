@@ -1,92 +1,59 @@
-# ToF Showcase
+# ToF Systems — Projects & Architecture
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IMaugrenI/IMaugrenI/main/assets/banner/V7_Banner.png" alt="ToF / V7 Showcase Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/IMaugrenI/IMaugrenI/main/assets/banner/ToF_Banner.png" alt="ToF Systems banner" width="100%" />
 </p>
 
-> English is the primary text in this repository. A German mirror is available in `README_DE.md`.
+**Local-first software, self-hosted AI, and clearly bounded systems.**
 
-> **First visit?** Read [START_HERE.md](START_HERE.md). No installation is required; it gives you a five-minute reading path through the public repo family.
+This repository is the public guide to the ToF Systems project family. It explains what each public tool does, how the architectural ideas connect, and where to find runnable examples. It is an **overview**, not a product installation or a mirror of any private runtime.
 
-Public architecture entry point for the broader ToF / V’eth project line.
+[Deutsch](README_DE.md) · [Start here](START_HERE.md) · [Documentation index](docs/INDEX.md)
 
-## What this repo is
+## Start with something concrete
 
-This repository is the broad public architecture and framing entry point for the public repo family.
+| Public project | Role | Practical use |
+| --- | --- | --- |
+| [Container Pulse](https://github.com/IMaugrenI/tof_container_pulse) | **Observe** | Generate local, read-only dashboards for Docker and host signals. |
+| [Local Knowledge](https://github.com/IMaugrenI/tof_local_knowledge) | **Ground** | Index local documents, search evidence, and answer with supporting context. |
+| [Local Builder](https://github.com/IMaugrenI/tof_local_builder) | **Generate** | Use local models with controlled source access and separated output. |
+| [Local Case Organizer](https://github.com/IMaugrenI/local_case_organizer) | **Structure** | Organize files into registers, timelines, and reviewable export packages. |
 
-## Who it is for
+Each project has its own README and `START_HERE.md` for supported platforms, current features, and limits.
 
-This repo is for profile visitors, technical readers, and potential sponsors or collaborators who want the clearest public overview before opening the more specific product or method repos.
+## One approach, independent tools
 
-## What it is not
+**Observe → Ground → Generate → Structure** is a way to explain complementary responsibilities — **not** a claim that all repositories are bundled into one finished application or already automatically connected.
 
-This repo is not a product repo, not the private runtime, and not a hidden code dump.
+The shared design direction is practical: run locally when possible, separate trusted sources from generated output, make evidence visible, and require explicit authority for consequential actions.
 
-## Where to go next
+## Architecture and methods
 
-- `docs/INDEX.md` — compact documentation entry map
-- `docs/01_product_line.md` — product roles and valid combinations
-- `docs/07_product_workflows.md` — explicit public workflows
-- `docs/06_project-line.md` — how the public repos relate to the larger private line
-- `tof-v7-public-frame` — tighter public boundary reading after this broader frame
+| Reference | Purpose |
+| --- | --- |
+| [Architecture Reference (V7)](https://github.com/IMaugrenI/tof-v7-public-frame) | A version-tagged public account of service and data boundaries. The V7 label belongs to the project history; visitors do not need to know the internal version sequence. |
+| [Module Ideas](https://github.com/IMaugrenI/tof-module-ideas) | Describe and classify larger module candidates before implementation. |
+| [Legacy Recovery Workbench](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) | Separate older mixed material into evidence, hypotheses, and review steps. |
+| [Bridge Planning Method](https://github.com/IMaugrenI/tof-bridge-planning-method) | Move prepared material into reviewable planning candidates without silently promoting it to running code. |
 
-## Why this repo exists
+These are **method and reference repositories**. They are not interchangeable with the runnable product tools.
 
-This repo exists to give a broad public first look at the repo family before a reader opens the narrower product repos or the stricter V7 boundary frame.
+## Navigate the documentation
 
-It is meant to answer three questions quickly:
+- [Start here](START_HERE.md) — short reading path for new visitors.
+- [Documentation index](docs/INDEX.md) — overview of public documentation.
+- [Project roles](docs/01_product_line.md) — capabilities and useful combinations.
+- [Practical workflows](docs/07_product_workflows.md) — public examples with stated boundaries.
+- [Project context](docs/06_project-line.md) — how the public work relates to broader private development.
 
-1. what kind of project line this is
-2. what the public repo family contains
-3. where a reader should click next
+## What this work demonstrates
 
-## Public repo family at a glance
+- Local-first architecture and self-hosted operating practices.
+- Clear responsibilities between input, knowledge, generation, and output.
+- Human-directed AI implementation with reviewable results.
+- Architecture and documentation that distinguish design intent from implemented behavior.
+- Public examples that do not require disclosure of private environments.
 
-### Product line
+**Accuracy matters:** a public architecture diagram is not proof of a deployed feature. Each runnable repository is the authority for its own implementation, setup, supported platforms, and maturity. No production readiness or end-to-end integration is implied across the whole project family.
 
-- `tof_container_pulse` — Observe: local Docker host status at a glance
-- `tof_local_knowledge` — Ground: local document indexing, evidence search, grounded answers
-- `tof_local_builder` — Generate: controlled local AI builder with read-only source and sandboxed output
-- `local_case_organizer` — Structure: local dossier building, timelines, and export packages
-
-### Architecture / framing
-
-- `tof-v7-public-frame` — reduced public boundary reading for V7
-
-### Method / transition
-
-- `tof-legacy-recovery-workbench` — recovery discipline for older mixed material
-- `tof-bridge-planning-method` — structured bridge from prepared blocks into candidates
-- `tof-module-ideas` — public-safe space for module candidates before runtime
-
-## Best next clicks
-
-If you want the clearest product proof first:
-
-1. `tof_container_pulse`
-2. `tof_local_knowledge`
-3. `tof_local_builder`
-4. `local_case_organizer`
-
-If you want the tighter architectural reading next:
-
-1. `tof-v7-public-frame`
-2. `docs/INDEX.md`
-3. `docs/01_product_line.md`
-4. `docs/07_product_workflows.md`
-
-## Documentation Index
-
-→ `docs/INDEX.md`
-
-## Product Line
-
-→ `docs/01_product_line.md`
-
-## Practical Workflows
-
-→ `docs/07_product_workflows.md`
-
-## Project Context
-
-→ `docs/06_project-line.md`
+[Back to Jakob Kessler's GitHub profile](https://github.com/IMaugrenI)
