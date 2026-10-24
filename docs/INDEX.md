@@ -6,7 +6,7 @@ The goal is orientation, not full internal disclosure. Start here when you want 
 
 ## Fast path
 
-1. [`01_overview.md`](01_overview.md) — older public architecture overview and terminology
+1. [`01_overview.md`](01_overview.md) — current architecture overview with historical terminology explained
 2. [`01_product_line.md`](01_product_line.md) — public product roles and valid combinations
 3. [`07_product_workflows.md`](07_product_workflows.md) — explicit manual workflows between product repos
 4. [`06_project-line.md`](06_project-line.md) — how the public repos relate to the larger private project line
@@ -14,9 +14,9 @@ The goal is orientation, not full internal disclosure. Start here when you want 
 
 ## Architecture reading
 
-- [`01_overview.md`](01_overview.md) — the public starting frame
-- [`02_what-is-tof.md`](02_what-is-tof.md) — what ToF is and what it is not
-- [`03_layer-separation.md`](03_layer-separation.md) — separation between ToF, V’eth, runtime, workbench, archive, canon, and public surface
+- [`01_overview.md`](01_overview.md) — ToF Systems architecture overview
+- [`02_what-is-tof.md`](02_what-is-tof.md) — the technical architecture approach behind ToF Systems
+- [`03_layer-separation.md`](03_layer-separation.md) — responsibility boundaries, including the historical ToF/V’eth distinction
 - [`05_public-chain.md`](05_public-chain.md) — simplified processing chain, with LLM/output late in the path
 - [`06_project-line.md`](06_project-line.md) — current public tools and their broader development context
 
