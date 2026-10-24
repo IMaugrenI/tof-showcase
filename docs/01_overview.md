@@ -1,45 +1,31 @@
-# Overview
+# ToF Systems — Architecture Overview
 
-ToF / V’eth is an independently developed system project focused on structured processing, clear system boundaries, traceable workflows, and modular further development.
+**ToF Systems** brings together independent local-first software tools, AI-assisted development workflows, and architecture work focused on clear responsibilities, controlled data flows, and inspectable results.
 
-## Short reading
+This document describes the **architectural ideas** behind the wider development work. For runnable public examples, begin with the [project overview](../README.md).
 
-The project is read through two connected but separate layers:
+## Two different concerns in the earlier architecture
 
-- **ToF** is the technical order space
-- **V’eth** is the identity, mirror, and expression layer
+Some older ToF documents use the name **ToF / V’eth**. In that architecture, the names refer to different responsibilities:
 
-This separation is not a stylistic device, but a real structural principle.
+- **ToF:** technical structure, processing, separation of system responsibilities, and operational controls.
+- **V’eth:** identity, mirroring, and expression — how a system presents or expresses itself.
 
-## Core idea
+The distinction matters: a conversational identity or presentation style must not gain technical authority simply because it is part of the same assistant. These historical terms are not prerequisites for understanding today's public projects.
 
-At the center are:
+## Design principles
 
-- order instead of uncontrolled mixing
-- clear separation of responsibilities
-- visible chain logic
-- protection and governance thinking
-- platform-neutral internal structure
-- a deliberate boundary between public presentation and internal production state
+- Separate responsibilities rather than mixing all features into one component.
+- Make data movement and decisions traceable.
+- Keep platform-specific adapters at the edge.
+- Distinguish stored references, historical evidence, and current runtime state.
+- Apply consent, authorization, and safety checks through explicit mechanisms.
+- Keep public descriptions separate from proof of implemented or deployed behavior.
 
-## What this showcase is about
+## What this documentation shows
 
-This public repository does not show a full production environment.
+The showcase provides architecture explanations, design principles, and reduced examples. It does **not** publish the complete private system or prove that every design idea has been deployed.
 
-In reduced form, it shows:
+The public tools — [Container Pulse](https://github.com/IMaugrenI/tof_container_pulse), [Local Knowledge](https://github.com/IMaugrenI/tof_local_knowledge), [Local Builder](https://github.com/IMaugrenI/tof_local_builder), and [Local Case Organizer](https://github.com/IMaugrenI/local_case_organizer) — each document their own real capabilities and setup procedures.
 
-- how the project is thought
-- which principles support the build
-- how structure, separation, and responsibility are handled
-- how a public-facing surface can look without exposing sensitive internals
-
-## What this is not about
-
-This showcase is not meant to:
-
-- disclose the entire system
-- publish the full code
-- expose operational security logic
-- document internal operating details publicly
-
-It is a controlled public surface with enough substance to make the direction and character of the project understandable.
+[Next: Technical architecture](02_what-is-tof.md) · [Project context](06_project-line.md)
