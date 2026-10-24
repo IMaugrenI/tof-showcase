@@ -1,100 +1,60 @@
-# Projektlinie und öffentliche Repo-Familie
+# ToF Systems — Öffentliche Projekte und Entwicklungskontext
 
-> Deutsch ist die Spiegelversion dieses Dokuments. Der englische Primärtext liegt in `06_project-line.md`.
+> Englische Hauptfassung: [06_project-line.md](06_project-line.md) · [Projektrollen](01_product_line_DE.md) · [Showcase](../README_DE.md)
 
-Dieses Dokument erklärt, wie die öffentlichen Repositories zur größeren privaten ToF / V’eth-Hauptlinie stehen.
+## Was zusammengehört
 
-> Diese Seite beschreibt Systemkontext und Repo-Beziehungen. Für konkrete Produktkombinationen siehe `01_product_line_DE.md`.
+**ToF Systems** ist der gemeinsame Rahmen für Arbeiten an lokaler Software, selbst gehosteter KI, Systemarchitektur und kontrollierter Entwicklung. Die öffentlichen GitHub-Repositories sind **eigenständige Werkzeuge und technische Referenzen**. Ihre Verbindung besteht zunächst in gemeinsamen Prinzipien, nicht in einer einzigen automatischen Runtime.
 
-## Warum diese Seite existiert
+Für Besucher steht an erster Stelle, **was die öffentlichen Werkzeuge tatsächlich machen**:
 
-Ein öffentliches Repository kann leicht zu abstrakt oder zu klein wirken, wenn der größere Kontext unsichtbar bleibt.
+| Aufgabe | Repository | Hauptzweck |
+| --- | --- | --- |
+| Observe | [Container Pulse](https://github.com/IMaugrenI/tof_container_pulse) | Lokale, schreibgeschützte Infrastrukturansichten. |
+| Ground | [Local Knowledge](https://github.com/IMaugrenI/tof_local_knowledge) | Lokale Dokumentensuche und beleggestützte Antworten. |
+| Generate | [Local Builder](https://github.com/IMaugrenI/tof_local_builder) | Lokale KI-gestützte Umsetzung mit begrenztem Quellen- und Ausgaberaum. |
+| Structure | [Local Case Organizer](https://github.com/IMaugrenI/local_case_organizer) | Lokale Register, Zeitachsen und Dossier-Exporte. |
 
-Diese Seite soll zeigen, dass die öffentlichen Repositories keine zufälligen Fragmente sind. Sie sind bewusste, öffentlich sichere Ausschnitte einer größeren privaten Systemlinie.
+Die Werkzeuge besitzen eigenständige Installationswege und unterschiedliche Entwicklungsstände. Eine konzeptionelle Reihenfolge bedeutet keine bereits bestehende technische Integration.
 
-## Hauptprojektlinie
+## Architektur und ergänzende Methoden
 
-Die breitere ToF / V’eth-Linie wird privat entwickelt.
+- [ToF Showcase](https://github.com/IMaugrenI/tof-showcase) erklärt die öffentliche Projektfamilie.
+- [Architekturreferenz (V7)](https://github.com/IMaugrenI/tof-v7-public-frame) bewahrt eine ältere Versionsbezeichnung und zeigt übertragbare Prinzipien für Systemgrenzen.
+- [Modulideen](https://github.com/IMaugrenI/tof-module-ideas) sammelt Kandidaten, keine ausgelieferten Dienste.
+- [Legacy Recovery Workbench](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) trennt bei Altmaterial Belege und Interpretationen.
+- [Bridge Planning Method](https://github.com/IMaugrenI/tof-bridge-planning-method) unterstützt die kontrollierte Überführung von Vorbereitung in Planung.
 
-Öffentlich sollte das Projekt als größere Systemlinie gelesen werden mit:
+Diese Repositories sind **Methoden oder Referenzen**, keine Ersatznachweise für tatsächlich vorhandene Produktfunktionen.
 
-- Architekturarbeit
-- Runtime-Iteration
-- Trennung von Schichten und Räumen
-- Smoke- und Verifikationskultur
-- gestufter Entwicklung über ältere und neuere Versionen hinweg
-- kontrollierter öffentlicher Rahmung statt roher interner Offenlegung
-
-## Private Linie, öffentliche Ausschnitte
-
-Die öffentlichen Repositories sind nicht dafür da, das gesamte interne System eins zu eins abzubilden.
-
-Stattdessen zeigen sie ausgewählte Ausschnitte, die sicher veröffentlicht und ehrlich erklärt werden können:
-
-- `tof-showcase` = breite öffentliche Architekturlinie und Einstiegspunkt in das Projekt
-- `tof_local_builder` = öffentlicher lokaler Builder-Ausschnitt für lokale GUI-first-Building-Workflows
-- `tof_local_knowledge` = öffentlicher on-prem Knowledge-Ausschnitt für Indexierung, Suche und grounded Answers
-- `tof-legacy-recovery-workbench` = öffentlicher Recovery-/Werkbank-Methodenausschnitt für älteres vermischtes Material
-- `tof-bridge-planning-method` = öffentlicher Vorplanungs-/Bridge-Ausschnitt zwischen vorbereiteten Bausteinen und späteren Zielkandidaten
-- `tof-v7-public-frame` = reduzierter V7-Grenzrahmen mit stärkerer Trennungsbetonung
-
-## Lesart der Versionslinie
-
-Eine sinnvolle öffentliche Lesart ist:
-
-- **V6** = breiterer historischer Zwischenstand mit mehr operativer Breite und angesammelten Experimenten
-- **V7** = saubererer Neuaufbau mit stärkerer Trennung, engerer Systemlesart und klarerer öffentlicher Rahmung
-
-Das bedeutet nicht, dass die öffentlichen Repositories die vollständige private Runtime einer der beiden Versionen zeigen.
-
-Es bedeutet, dass die öffentliche Seite aus einer realen Projektlinie mit echter Entwicklung hervorgeht.
-
-## Öffentlicher Wachstumspfad
-
-Zwei öffentliche Repositories sollen sichtbar weiter in praktischer Tiefe wachsen:
-
-- `tof_local_builder`
-- `tof_local_knowledge`
-
-Diese beiden Repositories sind die klarsten öffentlichen Orte, um lauffähige local-first-Substanz zu zeigen.
-
-Sie sollten daher als aktive öffentliche Ausbauräume gelesen werden und nicht als eingefrorene Schnappschüsse.
-
-## Öffentlich sicheres Diagramm
+## Öffentliche Orientierungskarte
 
 ```mermaid
 flowchart TD
-    A[Private ToF / V’eth-Hauptlinie]
-    A --> B[V6: breiterer historischer Zwischenstand]
-    A --> C[V7: saubererer Neuaufbau und stärkere Trennung]
-    B --> D[tof-showcase]
-    C --> D
-    C --> E[tof_local_builder]
-    C --> F[tof_local_knowledge]
-    B --> G[tof-legacy-recovery-workbench]
-    C --> H[tof-bridge-planning-method]
-    C --> I[tof-v7-public-frame]
+    A[ToF Systems]
+    A --> B[Öffentliche Werkzeuge]
+    A --> C[Architekturreferenz]
+    A --> D[Methoden und Exploration]
+    B --> E[Observe: Container Pulse]
+    B --> F[Ground: Local Knowledge]
+    B --> G[Generate: Local Builder]
+    B --> H[Structure: Case Organizer]
+    C --> I[Versionsbezogene Grenzreferenz: V7]
+    D --> J[Modulideen]
+    D --> K[Recovery Workbench]
+    D --> L[Bridge Planning]
 ```
 
-## Wichtige Grenze
+## Zu den älteren Projektbezeichnungen
 
-Diese Seite behauptet **nicht**, dass die öffentlichen Repositories das ganze System sind.
+Frühere Dokumente verwenden **ToF / V’eth** und Versionsbezeichnungen wie **V6** und **V7**. Diese Namen gehören zur Entwicklungsgeschichte. Sie bleiben dort erhalten, wo sie zum Verständnis historischer Architekturreferenzen notwendig sind.
 
-Sie zeigt eine sicherere und ehrlichere Lesart:
+Sie sind **nicht** die heutigen öffentlichen Produktkategorien, beschreiben nicht automatisch den Entwicklungsstand einzelner Repositories und sind keine Voraussetzung, um ein öffentliches Werkzeug zu verstehen oder zu starten. Bestehende Repository-Namen und Links bleiben aus Kontinuitätsgründen bestehen.
 
-- es gibt eine größere private Hauptprojektlinie
-- die öffentlichen Repositories sind bewusste Ausschnitte
-- manche Ausschnitte sind methodenorientiert
-- manche Ausschnitte sind lauffähig und produktnah
-- öffentliche Erklärung bleibt absichtlich begrenzt
+## Was privat bleibt
 
-## Wie die öffentlichen Repositories richtig gelesen werden sollten
+Die umfassendere Entwicklungsarbeit enthält nicht öffentliche Architekturen, Betriebskontexte und Experimente. Öffentliche Repositories legen keine produktiven Secrets, privaten Dienstübersichten oder privaten Runtime-Nachweise offen. Dieses Dokument behauptet nicht, dass jede Architekturidee bereits umgesetzt oder ausgerollt sei.
 
-Nutze die öffentlichen Repositories in dieser Reihenfolge:
+**Für den tatsächlichen Funktionsumfang eines Projekts sind dessen Code, aktuelles README und dokumentierte Prüfungen maßgeblich.** Die Methoden-Repositories beschreiben Prinzipien und keinen Betriebsstatus.
 
-1. `tof-showcase` für den breiten Rahmen
-2. `tof_local_builder` und `tof_local_knowledge` für konkrete öffentliche Substanz
-3. `tof-legacy-recovery-workbench` und `tof-bridge-planning-method` für methodische Disziplin
-4. `tof-v7-public-frame` für die engere Grenzlesart
-
-So bleibt die richtige Balance zwischen Erklärung, Glaubwürdigkeit und Sicherheit erhalten.
+Konkrete Anwendungsfälle und Übergaben: [Praktische Abläufe](07_product_workflows.md).
