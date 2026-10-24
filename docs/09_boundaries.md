@@ -1,44 +1,26 @@
-# Boundaries of the Public Showcase
+# Public Documentation and Private-System Boundaries
 
-## Public
+**ToF Systems publishes both runnable tools and architecture references.** The two must not be confused: public code can be inspected directly, while private runtime behavior is not established by a public architecture document.
 
-This repository may publicly show:
+## What this showcase may present
 
-- a high-level description
-- the core project idea
-- layer separation
-- principles
-- redacted fragments
-- harmless examples
-- simplified documentation
-- deliberately reduced chain readings
+- High-level architecture and responsibility models.
+- Public technical principles and reduced processing examples.
+- Links to source code, demos, and checks **in the separate public product repositories**.
+- Historical terminology where it is needed to explain architectural decisions.
+- The scope and limitations of the public project family.
 
-## Private
+## What remains outside this showcase
 
-This repository deliberately does not show:
+- Complete private-system source and production infrastructure.
+- Sensitive Compose or runtime configuration, host paths, and network details.
+- Credentials, private IDs, secrets, raw logs, and personal data.
+- Private security controls, operator access details, and unapproved internal evidence.
 
-- full code
-- production infrastructure
-- real compose or operating details
-- internal security details
-- operational special paths
-- real integrations
-- IDs, tokens, or secrets
-- private logs, archives, or raw data
-- internal test or operator mechanics
+## Reading rule
 
-## Why this boundary matters
+**Design intent is not deployment evidence.** A public example should state whether it illustrates a concept, shows a working public tool, or is supported by a specific runtime check. The individual repository remains the source for its real features and dependencies.
 
-The project should be externally readable without fully exposing its inner workings.
+The goal is a useful, understandable public explanation — not excessive secrecy, and not the disclosure of sensitive private operations.
 
-The public surface therefore does not serve full disclosure, but controlled visibility of:
-
-- direction
-- attitude
-- structural thinking
-- architectural discipline
-
-## Principle
-
-Show enough to make the project understandable.  
-Do not show so much that internal protection, operating, or structural secrets become exposed.
+[Project family](../README.md)
