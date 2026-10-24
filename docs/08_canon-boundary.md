@@ -1,21 +1,18 @@
-# Canon Boundary
+# Reference Material, Identity, and Authority
 
-Canon, symbolism, and identity objects are deliberately kept under formal limits in the project.
+In the earlier ToF architecture, **Canon** is a governed reference space. It must remain distinct from current runtime state, authorization rules, and expression.
 
-## This means
+## Important distinctions
 
-- canon is **not** runtime state
-- symbolism is **not** ACL
-- V’eth is **not** the technical truth core
-- style must not receive hidden authority
-- symbolic references do not replace governance, consent, or risk decisions
+- **Canon is not live runtime state.** Reference material can inform a system, but does not by itself prove what is running now.
+- **Symbols are not access-control lists.** A name, icon, ritual, or identity marker cannot grant privileges.
+- **Expression is not authority.** The identity and presentation layer — called *V’eth* in older documents — must not silently redefine technical permissions or system truth.
+- **Style does not replace consent, governance, or risk decisions.** Those decisions require explicit mechanisms and accountable ownership.
 
 ## Why this matters
 
-The expression and symbolic layer may carry orientation and style, but it must not claim hidden technical rights or truths.
+A system can maintain a recognizable voice or identity without allowing its presentation layer to make hidden decisions. Similarly, archived or agreed-upon reference texts should not overwrite the current runtime merely because they are stored centrally.
 
-That is exactly what keeps the system readable externally without becoming internally unclean.
+This is a **conceptual architecture rule**, not a statement that any particular private permission mechanism has been publicly verified.
 
-## Public boundary
-
-This showcase therefore shows only the formal basic idea of the canon space, not its full internal depth.
+[Data and responsibility boundaries](03_layer-separation.md) · [Architecture reference](https://github.com/IMaugrenI/tof-v7-public-frame)
