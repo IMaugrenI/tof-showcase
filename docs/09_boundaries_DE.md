@@ -1,44 +1,26 @@
-# Grenzen des öffentlichen Showcase
+# Öffentliche Dokumentation und Grenzen des privaten Systems
 
-## Öffentlich
+**ToF Systems veröffentlicht sowohl nutzbare Werkzeuge als auch Architekturreferenzen.** Beides ist zu unterscheiden: Öffentlicher Code kann direkt geprüft werden; das Verhalten einer privaten Runtime ist dagegen nicht durch ein öffentliches Architekturpapier nachgewiesen.
 
-Dieses Repository darf öffentlich zeigen:
+## Was dieses Showcase zeigen darf
 
-- High-Level-Beschreibung
-- Grundidee des Projekts
-- Ebenentrennung
-- Prinzipien
-- redigierte Fragmente
-- harmlose Beispiele
-- vereinfachte Dokumentation
-- bewusst reduzierte Kettenlesarten
+- Architektur- und Zuständigkeitsmodelle auf hoher Ebene.
+- Öffentliche technische Prinzipien und reduzierte Verarbeitungsbeispiele.
+- Links zu Quellcode, Demos und Prüfungen **in den getrennten öffentlichen Produkt-Repositories**.
+- Historische Begriffe, wo sie zum Verständnis von Architekturentscheidungen wichtig sind.
+- Umfang und Grenzen der öffentlichen Projektfamilie.
 
-## Privat
+## Was außerhalb dieses Showcase bleibt
 
-Dieses Repository zeigt bewusst nicht:
+- Vollständiger Quellcode des privaten Systems und Produktivinfrastruktur.
+- Sensible Compose-/Runtime-Konfiguration, Host-Pfade und Netzwerkdetails.
+- Zugangsdaten, private Kennungen, Secrets, Rohlogs und personenbezogene Daten.
+- Private Sicherheitskontrollen, Betreiberdetails und nicht freigegebene interne Nachweise.
 
-- vollständigen Code
-- produktive Infrastruktur
-- reale Compose- oder Betriebsdetails
-- interne Sicherheitsdetails
-- operative Sonderpfade
-- reale Integrationen
-- IDs, Tokens oder Secrets
-- private Logs, Archive oder Rohdaten
-- interne Test- oder Operator-Mechaniken
+## Leseregel
 
-## Warum diese Grenze wichtig ist
+**Architekturabsicht ist kein Betriebsnachweis.** Ein öffentliches Beispiel sollte klar benennen, ob es ein Konzept erläutert, ein funktionierendes öffentliches Werkzeug zeigt oder durch eine konkrete Runtime-Prüfung belegt ist. Das jeweilige Repository bleibt maßgeblich für echte Funktionen und Abhängigkeiten.
 
-Das Projekt soll nach außen lesbar sein, ohne sein Innenleben vollständig preiszugeben.
+Ziel ist eine verständliche, brauchbare öffentliche Darstellung — weder unnötige Geheimniskrämerei noch die Offenlegung sensibler privater Betriebsabläufe.
 
-Die Außenfläche dient daher nicht der Volloffenlegung, sondern der kontrollierten Sichtbarkeit von:
-
-- Richtung
-- Haltung
-- Strukturdenken
-- Architekturdisziplin
-
-## Grundsatz
-
-Genug zeigen, um das Projekt verständlich zu machen.  
-Nicht so viel zeigen, dass interne Schutz-, Betriebs- oder Strukturgeheimnisse offenliegen.
+[Projektfamilie](../README_DE.md)
