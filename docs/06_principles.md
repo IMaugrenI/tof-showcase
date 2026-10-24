@@ -1,41 +1,26 @@
-# Principles
+# Design Principles and Public Documentation
 
-This document describes the core principles of the public showcase presentation.
+These principles describe the **architecture direction** of the ToF Systems development work. They are useful for evaluating designs but are not guarantees about the maturity of every public tool.
 
-## Central project principles
+## Engineering principles
 
-- clear separation of responsibilities
-- modular instead of monolithic structure
-- traceable workflows
-- protection logic not as decoration, but as a real layer
-- language-model output not as the truth core
-- structure before mixing
-- system boundaries remain visible
+- Separate responsibilities and interfaces explicitly.
+- Prefer modular components over an uninspectable monolith.
+- Make the movement of information traceable.
+- Treat authorization, privacy, and protection as architecture concerns.
+- Distinguish an LLM's generated answer from verified state or accepted evidence.
+- Keep current runtime behavior, archived material, and plans clearly labeled.
+- Keep operational boundaries visible even when documenting only a reduced model.
 
-## Public presentation principles
+## Public documentation principles
 
-- only redacted and simplified excerpts
-- no production access data
-- no real IDs or operating secrets
-- no security-critical details in full depth
-- no private operating or archive data
-- no operational deep mechanics
+- Publish examples and explanations that can be understood without private system access.
+- Exclude credentials, real private identifiers, sensitive paths, logs, and operator controls.
+- Say whether material is a design, prototype, working tool, or verified runtime evidence.
+- Link to the individual product repository for actual commands, capabilities, and limitations.
 
-## Guiding line of the showcase
+## Practical interpretation
 
-This public surface should show enough to provide orientation, but not so much that it exposes the internal system build.
+The public documentation is meant to show *what problem a principle solves*, not only repeat that a system has boundaries. Architecture references establish intentions and distinctions; runnable repositories provide the relevant implementation evidence.
 
-What becomes publicly visible above all is:
-
-- way of thinking
-- layer separation
-- chain idea
-- technical guardrails
-- reduced example structure
-
-What does not become visible is:
-
-- concrete protection mechanisms
-- real infrastructure paths
-- internal operator or special access paths
-- full runtime and operating logic
+[Projects](../README.md) · [Public disclosure limits](09_boundaries.md)
