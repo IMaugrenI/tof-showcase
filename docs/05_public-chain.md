@@ -1,8 +1,8 @@
-# Public Chain Reading
+# Processing Chain — Reduced Architecture Model
 
-The leading system chain is shown here only in reduced form.
+This reference shows a **conceptual ordering of responsibilities** from earlier ToF architecture work. It is not a verified map of a running deployment or a specification for every public tool.
 
-## Simplified reading
+## Simplified sequence
 
 1. Input
 2. Edge / intake
@@ -18,13 +18,14 @@ The leading system chain is shown here only in reduced form.
 12. Output preparation
 13. Output
 
-## Why only reduced?
+The list retains the historical architecture's distinctions. It should not be interpreted as proof of thirteen separate containers, a fixed real-time sequence for all messages, or fully implemented behavior.
 
-The full operational depth is not part of this showcase.
+## Why the order matters
 
-Only the basic direction is shown:
+The intended principle is that incoming information is checked and governed before a system makes decisions or produces answers. Historical records and current state have different roles. An LLM can support later processing or wording, but its output is **not** automatically a trusted source or authorization decision.
 
-- processing does not run in an unordered way
-- responsibilities are layered
-- LLM output appears late in the overall chain
-- output is not identical with the truth core
+## What is not shown
+
+Internal routing rules, operator controls, production addresses, and full security mechanisms remain outside this public summary.
+
+[Architecture overview](04_architecture-fragments.md) · [Technical guardrails](07_public-principles.md)
