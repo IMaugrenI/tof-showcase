@@ -26,11 +26,9 @@ Choose by goal:
 
 Each runnable repo has its own `START_HERE.md`.
 
-## If you want the stricter architecture boundary
+## If you want the architecture reference
 
-Continue to [tof-v7-public-frame](https://github.com/IMaugrenI/tof-v7-public-frame).
-
-That repository is intentionally narrower. It explains how the public V7 frame should be read without treating public documentation as private runtime truth.
+Continue to [Architecture Reference (V7)](https://github.com/IMaugrenI/tof-v7-public-frame). The name preserves an earlier internal version identifier; its public purpose is to explain system boundaries, not to require knowledge of the version history or claim current runtime status.
 
 ## Important boundary
 
