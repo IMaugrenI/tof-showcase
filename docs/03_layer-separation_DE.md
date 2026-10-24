@@ -1,29 +1,26 @@
-# Ebenentrennung
+# Architekturgrenzen — Zuständigkeiten und Datenräume
 
-Ein zentrales Bauprinzip von ToF / V’eth ist die saubere Trennung der Räume.
+Ein zentrales Prinzip der früheren ToF-Architektur ist, dass unterschiedliche Verantwortlichkeiten nicht stillschweigend ineinander übergehen dürfen.
 
-## Die wichtigsten Räume
+## Bereiche und Zuständigkeiten
 
-- **ToF** = technischer Kern- und Ordnungsraum
-- **V’eth** = Identitäts-, Spiegel-, Ausdrucks- und Symbolschicht
-- **Runtime** = aktive technische Wahrheit
-- **Werkbank** = Bergungs- und Zerlegungsraum für Altmaterial
-- **Archiv** = Langzeitspur und Herkunftsraum
-- **Kanon** = strukturierter Referenzraum
+| Bereich | Aufgabe | Wichtige Grenze |
+| --- | --- | --- |
+| Technischer Kern (ToF) | Verarbeitung und Betriebsstruktur | Nicht durch Stil oder Persona gesteuert |
+| Identität und Ausdruck (historisch V’eth) | Darstellung und Kommunikation des Assistenten | Keine versteckte Berechtigung, Systemzustände zu ändern |
+| Runtime | Tatsächlich aktive Dienste und Betriebszustand | Nicht mit Planung oder Dokumentation gleichzusetzen |
+| Werkbank | Älteres Material untersuchen, trennen und vorbereiten | Keine automatische Freigabe in die Runtime |
+| Archiv | Gespeicherte Historie und Herkunft | Nicht automatisch aktueller Wahrheitsstand |
+| Kanon | Geregeltes Referenzmaterial | Nicht identisch mit dem laufenden Runtime-Zustand |
 
-## Warum diese Trennung wichtig ist
+Das sind **konzeptionelle Grenzen** der öffentlichen Architekturreferenz. Ihre Beschreibung ist kein Nachweis, dass jede Umsetzung bereits betrieben wird.
 
-Diese Räume dürfen sich gegenseitig beeinflussen, aber nicht unmarkiert vermischen.
+## Warum die Trennung wichtig ist
 
-Zum Beispiel:
+Archiviertes darf nicht unbemerkt zum aktuellen Zustand werden. Planungskandidaten dürfen nicht automatisch ausführbare Änderungen auslösen. Ausdruck und Identität verleihen sich keine eigene Berechtigung. Technische Entscheidungen brauchen klar ausgewiesene Quellen, Autorität und Prüfung.
 
-- Werkbank ist nicht Runtime
-- Archiv ist nicht aktueller Zustand
-- Kanon ist nicht State-Wahrheit
-- V’eth ist nicht Governance-Ersatz
+## Öffentlicher Umfang
 
-## Öffentliche Lesart
+Das Repository erklärt diese Beziehungen, ohne private Pfade, Zugangsdaten, interne Betreiberdetails oder vollständige Runtime-Mechanismen zu veröffentlichen.
 
-Die Außenfläche zeigt nur die Trennlogik und Grundidee.
-
-Interne operative Details, Gewichtungen und Sonderpfade bleiben bewusst privat.
+[Öffentliches Verarbeitungsmodell](05_public-chain_DE.md) · [Referenz- und Identitätsgrenzen](08_canon-boundary_DE.md)
