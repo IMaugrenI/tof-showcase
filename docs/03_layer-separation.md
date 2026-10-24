@@ -1,29 +1,26 @@
-# Layer Separation
+# Architecture Boundaries — Responsibilities and Data Spaces
 
-A central construction principle of ToF / V’eth is the clean separation of spaces.
+A central idea in the earlier ToF architecture is that different responsibilities must not quietly collapse into one another.
 
-## The most important spaces
+## Areas and responsibilities
 
-- **ToF** = technical core and order space
-- **V’eth** = identity, mirror, expression, and symbolic layer
-- **Runtime** = active technical truth
-- **Werkbank** = salvage and decomposition space for older material
-- **Archiv** = long-term trace and provenance space
-- **Kanon** = structured reference space
+| Area | Responsibility | Important boundary |
+| --- | --- | --- |
+| Technical core (ToF) | Processing and operational structure | Not governed by style or persona |
+| Identity and expression (historically V’eth) | How the assistant presents and expresses itself | No implicit permission to change system state |
+| Runtime | Actual active services and operational state | Not equivalent to plans or documentation |
+| Workbench (Werkbank) | Inspecting, separating, and preparing older material | Not automatically released to runtime |
+| Archive (Archiv) | Retained history and provenance | Not automatically the current truth |
+| Canon (Kanon) | Governed reference material | Not the same as live runtime state |
 
-## Why this separation matters
+These are **conceptual boundaries** in the public architecture reference. Their presence in documentation does not establish the deployment status of any implementation.
 
-These spaces may influence one another, but they must not merge without being marked.
+## Why the separation matters
 
-For example:
+Archived facts should not silently become current state. Planning candidates must not automatically become executable changes. Expression and identity cannot grant themselves authorization. A technical decision needs explicit sources, authority, and review.
 
-- Werkbank is not runtime
-- archive is not current state
-- canon is not state truth
-- V’eth is not a governance substitute
+## Public scope
 
-## Public reading
+The public repository explains these relationships without exposing private paths, credentials, internal operator details, or full runtime mechanisms.
 
-The public surface shows only the separation logic and the basic idea.
-
-Internal operational details, weightings, and special paths deliberately remain private.
+[Public processing model](05_public-chain.md) · [Reference and identity boundaries](08_canon-boundary.md)
