@@ -26,11 +26,9 @@ Wähle nach Ziel:
 
 Jedes lauffähige Repo besitzt ein eigenes `START_HERE.md`.
 
-## Wenn du die strengere Architekturgrenze lesen willst
+## Wenn du die Architekturreferenz lesen willst
 
-Weiter zu [tof-v7-public-frame](https://github.com/IMaugrenI/tof-v7-public-frame).
-
-Dieses Repo ist absichtlich enger und erklärt, wie der öffentliche V7-Rahmen gelesen werden soll, ohne öffentliche Doku mit privater Runtime-Wahrheit gleichzusetzen.
+Weiter zur [Architekturreferenz (V7)](https://github.com/IMaugrenI/tof-v7-public-frame). Der Name erhält eine ältere interne Versionsbezeichnung; öffentlich geht es um Systemgrenzen, nicht um die Kenntnis einer Versionsgeschichte oder eine Behauptung zum aktuellen Runtime-Status.
 
 ## Wichtige Grenze
 
