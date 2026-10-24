@@ -1,34 +1,27 @@
-# What ToF Is
+# Technical Architecture — What ToF Means
 
-ToF is not a Discord bot with extras and not a simple LLM setup.
+**ToF** names the technical structuring approach within the wider **ToF Systems** work. It is not synonymous with a Discord bot, a particular chat interface, or a language model.
 
-ToF is intended as a technical order space in which processing, responsibility, protection, state, and archiving are deliberately separated.
+The central idea is a modular design with clear treatment of processing, authorization, protection, state, and historical records.
 
-## ToF in short
+## Technical priorities
 
-ToF stands for a modular system space with a focus on:
+- Explicit processing stages and responsibilities.
+- Boundaries between services and data spaces.
+- Governance and protection before consequential actions.
+- Separation of live state, retained history, and governed reference material.
+- Platform-independent core logic with adapters at the boundaries.
 
-- clear chain logic
-- separated responsibilities
-- governance and protection thinking
-- state, retention, and archive logic
-- a platform-neutral internal structure with adapters at the edge
+These describe **architecture principles**, not a claim that every detail is implemented by each public repository.
 
-## What ToF is not
+## What the name does not imply
 
-Publicly, ToF should explicitly not be read as:
+The technical approach is not defined by a single chatbot, LLM wrapper, monolithic bot, or platform-specific implementation. The public tools are independently usable and do not require the private assistant runtime.
 
-- an ordinary chatbot
-- an LLM wrapper
-- a monolithic bot core
-- platform logic at the center of the system
-- a blindly responding answer machine
+## Historical naming: ToF and V’eth
 
-## Relationship to V’eth
+Earlier architecture documents distinguish **ToF (technical structure)** from **V’eth (identity and expression)**. The distinction protects system decisions from being silently influenced by a persona or symbolic presentation.
 
-ToF and V’eth belong together, but they are not the same thing.
+For today's public orientation, **ToF Systems** is the common project identity. The two older terms remain here only where they explain a meaningful architectural boundary.
 
-- **ToF = structure**
-- **V’eth = expression / identity / mirroring**
-
-The technical core remains separate from the expression layer.
+[Read about separation of responsibilities](03_layer-separation.md)
