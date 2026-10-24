@@ -1,8 +1,8 @@
-# Öffentliche Kettenlesart
+# Verarbeitungskette — Reduziertes Architekturmodell
 
-Die führende Systemkette wird hier nur in reduzierter Form gezeigt.
+Diese Referenz zeigt eine **konzeptionelle Reihenfolge von Zuständigkeiten** aus früherer ToF-Architekturarbeit. Sie ist weder eine verifizierte Karte einer laufenden Installation noch eine Vorgabe für jedes öffentliche Werkzeug.
 
-## Vereinfachte Lesart
+## Vereinfachte Abfolge
 
 1. Eingang
 2. Edge / Annahme
@@ -18,13 +18,14 @@ Die führende Systemkette wird hier nur in reduzierter Form gezeigt.
 12. Ausgabevorbereitung
 13. Ausgabe
 
-## Warum nur reduziert?
+Die Liste bewahrt die Unterscheidungen des früheren Architekturmodells. Sie ist kein Beweis für dreizehn einzelne Container, eine starre Echtzeitreihenfolge aller Nachrichten oder bereits vollständig umgesetztes Verhalten.
 
-Die vollständige operative Tiefe ist nicht Teil dieses Showcase.
+## Warum diese Reihenfolge wichtig ist
 
-Gezeigt wird nur die Grundrichtung:
+Das Grundprinzip lautet: Eingehende Informationen sollen geprüft und anhand klarer Regeln behandelt werden, bevor Entscheidungen oder Antworten entstehen. Historische Aufzeichnungen und aktueller Zustand haben unterschiedliche Rollen. Ein LLM kann die spätere Verarbeitung oder Formulierung unterstützen, doch seine Ausgabe ist **nicht** automatisch eine vertrauenswürdige Quelle oder Berechtigungsentscheidung.
 
-- Verarbeitung läuft nicht ungeordnet
-- Zuständigkeiten sind geschichtet
-- LLM-Ausgabe steht spät in der Gesamtkette
-- Ausgabe ist nicht identisch mit Wahrheitskern
+## Was nicht gezeigt wird
+
+Interne Routing-Regeln, Betreibereingriffe, Produktivadressen und vollständige Sicherheitsmechanismen bleiben außerhalb dieser öffentlichen Zusammenfassung.
+
+[Architekturüberblick](04_architecture-fragments_DE.md) · [Technische Leitplanken](07_public-principles_DE.md)
