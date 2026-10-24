@@ -1,6 +1,6 @@
-# Public Product Line
+# Public Tools — Roles and Manual Combinations
 
-This repository is part of a modular local-first product line.
+The public ToF Systems tools are independent, local-first projects with complementary roles.
 
 Each tool works standalone.
 Some tools can be combined in defined ways to extend capability.
@@ -12,12 +12,12 @@ Not all combinations are supported.
 
 ## Roles
 
-| Role | Repo |
-|------|------|
+| Role | Repository |
+| --- | --- |
 | Observe | tof_container_pulse |
-| Structure | local_case_organizer |
-| Generate | tof_local_builder |
 | Ground | tof_local_knowledge |
+| Generate | tof_local_builder |
+| Structure | local_case_organizer |
 
 ---
 
@@ -35,9 +35,11 @@ Each tool can be used independently.
 
 ---
 
-## Full chain
+## Optional manual sequence
 
 Knowledge → Builder → Organizer
+
+This is a **user-directed handoff example**, not a released integrated runtime or an automated workflow. Review material at each transition.
 
 ---
 
